@@ -1,0 +1,339 @@
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.chip {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: 20px;
+    color: var(--text2);
+    font-size: 12px;
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: all .2s;
+    white-space: nowrap;
+}
+
+.chip:hover {
+    border-color: var(--accent4);
+    color: var(--text);
+}
+
+.chip.active {
+    background: var(--accent4);
+    border-color: var(--accent4);
+    color: #fff;
+}
+
+.chip.special.active {
+    background: var(--accent2);
+    border-color: var(--accent2);
+}
+
+.habitat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+}
+
+.habitat-card {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+    transition: all .2s;
+    user-select: none;
+}
+
+.habitat-card:hover {
+    border-color: var(--accent4);
+    transform: translateY(-1px);
+}
+
+.habitat-card.checked {
+    border-color: var(--accent);
+    background: rgba(245, 200, 66, 0.06);
+}
+
+.hab-check,
+.poke-check {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--border);
+    background: var(--bg3);
+    flex-shrink: 0;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hab-check-icon,
+.poke-check-icon {
+    display: none;
+    font-size: 12px;
+    color: #000;
+    font-weight: 900;
+}
+
+.habitat-card.checked .hab-check {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
+.habitat-card.checked .hab-check-icon {
+    display: block;
+}
+
+.hab-img {
+    width: 72px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    background: var(--bg3);
+}
+
+.hab-img-placeholder {
+    width: 72px;
+    height: 54px;
+    border-radius: 8px;
+    background: var(--bg3);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text3);
+    font-size: 11px;
+}
+
+.hab-info,
+.poke-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.hab-num,
+.poke-num {
+    font-size: 11px;
+    color: var(--text3);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.hab-name,
+.poke-name {
+    font-weight: 700;
+    color: var(--text);
+}
+
+.hab-name {
+    font-size: 14px;
+    margin: 2px 0 5px;
+}
+
+.hab-contents {
+    font-size: 11px;
+    color: var(--text2);
+    line-height: 1.5;
+}
+
+.hab-pokemon-list,
+.poke-skills-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.hab-pokemon-list {
+    margin-top: 5px;
+}
+
+.hab-poke {
+    font-size: 10px;
+    background: var(--bg3);
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: var(--text2);
+    white-space: nowrap;
+}
+
+.hab-poke.star3 {
+    color: var(--accent);
+}
+
+.hab-poke.star2 {
+    color: var(--accent4);
+}
+
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 10px;
+}
+
+.pokemon-card {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.pokemon-card:hover {
+    border-color: var(--accent4);
+    transform: translateY(-1px);
+}
+
+.pokemon-card.checked {
+    border-color: var(--green);
+    background: rgba(85, 239, 196, 0.05);
+}
+
+.pokemon-card.checked .poke-check {
+    background: var(--green);
+    border-color: var(--green);
+}
+
+.pokemon-card.checked .poke-check-icon {
+    display: block;
+}
+
+.poke-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+    background: var(--bg3);
+    border-radius: 8px;
+}
+
+.poke-img-placeholder {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background: var(--bg3);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text3);
+    font-size: 20px;
+}
+
+.poke-name {
+    font-size: 15px;
+    margin: 2px 0 4px;
+}
+
+.poke-skill {
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-weight: 500;
+    background: var(--bg3);
+    color: var(--text2);
+}
+
+.poke-skill.scatter {
+    background: rgba(162, 155, 254, .2);
+    color: var(--purple);
+}
+
+.poke-skill.special-tag {
+    background: rgba(255, 107, 107, .2);
+    color: var(--accent2);
+}
+
+.poke-move {
+    font-size: 11px;
+    color: var(--accent3);
+}
+
+.poke-habitat {
+    font-size: 11px;
+    color: var(--text3);
+    margin-top: 2px;
+}
+
+.scatter-item {
+    font-size: 11px;
+    color: var(--orange);
+    margin-top: 2px;
+}
+
+.tip-box {
+    background: rgba(78, 205, 196, .08);
+    border: 1px solid rgba(78, 205, 196, .3);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.data-table th {
+    background: var(--panel);
+    color: var(--accent);
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 2px solid var(--border);
+    white-space: nowrap;
+}
+
+.data-table td {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    vertical-align: top;
+    line-height: 1.5;
+}
+
+.island-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+.island-card,
+.factory-step,
+.mat-card {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+}
+
+.island-card {
+    padding: 16px;
+}
+
+.factory-step {
+    padding: 18px 20px;
+    margin-bottom: 16px;
+}
+
+.mat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.mat-card {
+    padding: 12px 14px;
+}
