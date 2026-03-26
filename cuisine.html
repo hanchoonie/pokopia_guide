@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>料理 | Pokopia Guide</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Rajdhani:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+    <main class="page">
+        <div class="content-page">
+            <h2>🍳 全食譜料理圖鑑</h2>
+
+            <div class="tip-box">
+                <ul>
+                    <li><strong>料理等級</strong>：會影響商店販售的價格、技能強化的幅度，以及卡比獸供奉效果的高低。</li>
+                    <li><strong>料理味道</strong>：會決定卡比獸給予的加成種類（例如：辣味增加寶可夢出現率）。</li>
+                    <li><strong>幫手寶可夢</strong>：部分料理配方需要帶上有「特定專長」的寶可夢幫手才能製作出新料理。</li>
+                </ul>
+            </div>
+
+            <div id="cuisineSections"></div>
+
+            <h2>🐾 苔卡比獸供奉效果</h2>
+            <p style="color:var(--text2);font-size:13px;margin-bottom:12px;">
+                每日一次（凌晨 5 點刷新）。也可更改 Nintendo Switch 2 的日期時間快速刷新。
+            </p>
+            <div id="kabutopsEffects"></div>
+        </div>
+    </main>
+
+    <script src="js/shared/utils.js"></script>
+    <script src="js/shared/layout.js"></script>
+    <script src="js/shared/data.js"></script>
+    <script src="js/pages/cuisine.js"></script>
+</body>
+
+</html>

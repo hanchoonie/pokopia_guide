@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>棲息地 | Pokopia Guide</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Rajdhani:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+    <main class="page">
+        <div class="layout">
+            <div class="list-col">
+                <div class="search-wrap">
+                    <input id="habSearch" type="text" placeholder="搜尋棲息地 / 材料 / 寶可夢">
+                    <span class="icon">🔍</span>
+                </div>
+
+                <div id="habGrid" class="habitat-grid"></div>
+            </div>
+
+            <div class="side-col">
+                <div class="side-panel">
+                    <h3>所需材料 <span id="habCheckedCount" class="count-badge" style="display:none">0</span></h3>
+                    <div class="page-actions">
+                        <button class="btn danger" id="clearHabitatsBtn" type="button">清除勾選</button>
+                    </div>
+                    <div id="habEmpty" class="empty">尚未選擇棲息地</div>
+                    <div id="habMaterials"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/shared/constants.js"></script>
+    <script src="js/shared/utils.js"></script>
+    <script src="js/shared/layout.js"></script>
+    <script src="js/shared/data.js"></script>
+    <script src="js/pages/habitats.js"></script>
+</body>
+
+</html>
