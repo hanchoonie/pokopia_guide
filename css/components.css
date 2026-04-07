@@ -337,3 +337,115 @@
 .mat-card {
     padding: 12px 14px;
 }
+
+/* 篩選分類列（第一排：技能 / 口味 / 喜愛環境...） */
+.filter-type-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+/* 每個欄位區塊：例如 棲息地 / 口味 / 喜愛食物 */
+.poke-field-row {
+    margin-top: 6px;
+}
+
+.field-label {
+    display: block;
+    font-size: 11px;
+    color: var(--text3);
+    margin-bottom: 4px;
+}
+
+/* 標籤容器 */
+.poke-tags-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+/* 統一 tag 風格 */
+.poke-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    line-height: 1.4;
+    background: var(--bg3);
+    color: var(--text2);
+    border: 1px solid var(--border);
+    white-space: nowrap;
+}
+
+/* 各種類 tag 顏色 */
+.habitat-tag {
+    background: rgba(116, 185, 255, 0.12);
+    color: var(--blue);
+    border-color: rgba(116, 185, 255, 0.22);
+}
+
+.skill-tag {
+    background: rgba(245, 200, 66, 0.12);
+    color: var(--accent);
+    border-color: rgba(245, 200, 66, 0.22);
+}
+
+/* 保留原本特殊技能樣式相容 */
+.skill-tag.scatter {
+    background: rgba(162, 155, 254, .2);
+    color: var(--purple);
+    border-color: rgba(162, 155, 254, .28);
+}
+
+.skill-tag.special-tag {
+    background: rgba(255, 107, 107, .2);
+    color: var(--accent2);
+    border-color: rgba(255, 107, 107, .28);
+}
+
+.flavor-tag {
+    background: rgba(255, 107, 107, 0.12);
+    color: #ff9b9b;
+    border-color: rgba(255, 107, 107, 0.24);
+}
+
+.food-tag {
+    background: rgba(85, 239, 196, 0.10);
+    color: var(--green);
+    border-color: rgba(85, 239, 196, 0.22);
+}
+
+.env-tag {
+    background: rgba(116, 185, 255, 0.10);
+    color: var(--blue);
+    border-color: rgba(116, 185, 255, 0.22);
+}
+
+.thing-tag {
+    background: rgba(162, 155, 254, 0.12);
+    color: var(--purple);
+    border-color: rgba(162, 155, 254, 0.24);
+}
+
+.filter-select-row {
+    margin-bottom: 10px;
+}
+
+.filter-select {
+    width: 100%;
+    max-width: 220px;
+    height: 38px;
+    padding: 0 12px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--bg2);
+    color: var(--text);
+    font-size: 14px;
+    outline: none;
+}
+
+.filter-select:focus {
+    border-color: var(--accent);
+}

@@ -2732,2725 +2732,311 @@ const HABITATS = [{
     "activity": true
 }];
 
-const POKEMONS = [{
-    "num": "001",
-    "name": "妙蛙種子",
-    "img": "pokopia_pokemons/No_001.png",
-    "move": "樹葉",
-    "skills": ["栽培"],
-    "habitat": "綠色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "002",
-    "name": "妙蛙草",
-    "img": "pokopia_pokemons/No_002.png",
-    "move": "--",
-    "skills": ["栽培"],
-    "habitat": "整片的花海",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "003",
-    "name": "妙蛙花",
-    "img": "pokopia_pokemons/No_003.png",
-    "move": "--",
-    "skills": ["栽培", "亂撒"],
-    "habitat": "整片的花海",
-    "note": "乾燥荒野之鎮・非常稀有",
-    "scatterItem": "葉子"
-}, {
-    "num": "004",
-    "name": "小火龍",
-    "img": "pokopia_pokemons/No_004.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "綠色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "005",
-    "name": "火恐龍",
-    "img": "pokopia_pokemons/No_005.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "露營組合",
-    "note": "乾燥荒野之鎮・稀有",
-    "scatterItem": ""
-}, {
-    "num": "006",
-    "name": "噴火龍",
-    "img": "pokopia_pokemons/No_006.png",
-    "move": "--",
-    "skills": ["點火", "飛翔"],
-    "habitat": "綠色的草叢",
-    "note": "任何區域・非常稀有（高處）",
-    "scatterItem": ""
-}, {
-    "num": "007",
-    "name": "傑尼龜",
-    "img": "pokopia_pokemons/No_007.png",
-    "move": "水槍",
-    "skills": ["滋潤"],
-    "habitat": "綠色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "008",
-    "name": "卡咪龜",
-    "img": "pokopia_pokemons/No_008.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "濕潤的草地",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "009",
-    "name": "水箭龜",
-    "img": "pokopia_pokemons/No_009.png",
-    "move": "--",
-    "skills": ["滋潤", "交易"],
-    "habitat": "濕潤的草地",
-    "note": "任何區域・非常稀有",
-    "scatterItem": ""
-}, {
-    "num": "010",
-    "name": "波波",
-    "img": "pokopia_pokemons/No_010.png",
-    "move": "--",
-    "skills": ["找東西", "飛翔"],
-    "habitat": "高崗的草叢",
-    "note": "任何區域・普通（高處）",
-    "scatterItem": ""
-}, {
-    "num": "011",
-    "name": "比比鳥",
-    "img": "pokopia_pokemons/No_011.png",
-    "move": "--",
-    "skills": ["找東西", "飛翔"],
-    "habitat": "高崗的草叢",
-    "note": "任何區域・稀有（高處）",
-    "scatterItem": ""
-}, {
-    "num": "012",
-    "name": "大比鳥",
-    "img": "pokopia_pokemons/No_012.png",
-    "move": "--",
-    "skills": ["伐木", "飛翔"],
-    "habitat": "豪華小雞飼料",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "013",
-    "name": "走路草",
-    "img": "pokopia_pokemons/No_013.png",
-    "move": "--",
-    "skills": ["栽培"],
-    "habitat": "綠色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "014",
-    "name": "臭臭花",
-    "img": "pokopia_pokemons/No_014.png",
-    "move": "--",
-    "skills": ["栽培"],
-    "habitat": "南國氣氛",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "015",
-    "name": "霸王花",
-    "img": "pokopia_pokemons/No_015.png",
-    "move": "--",
-    "skills": ["栽培", "亂撒"],
-    "habitat": "吉利蛋休息處",
-    "note": "--",
-    "scatterItem": "葉子"
-}, {
-    "num": "016",
-    "name": "美麗花",
-    "img": "pokopia_pokemons/No_016.png",
-    "move": "--",
-    "skills": ["栽培", "帶動氣氛"],
-    "habitat": "吉利蛋休息處",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "017",
-    "name": "派拉斯",
-    "img": "pokopia_pokemons/No_017.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "高崗的花海",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "018",
-    "name": "派拉斯特",
-    "img": "pokopia_pokemons/No_018.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "高崗的花海",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "019",
-    "name": "毛球",
-    "img": "pokopia_pokemons/No_019.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "光照的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "020",
-    "name": "摩魯蛾",
-    "img": "pokopia_pokemons/No_020.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "光照的草叢",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "021",
-    "name": "喇叭芽",
-    "img": "pokopia_pokemons/No_021.png",
-    "move": "--",
-    "skills": ["栽培", "亂撒"],
-    "habitat": "樹蔭的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": "藤蔓繩"
-}, {
-    "num": "022",
-    "name": "口呆花",
-    "img": "pokopia_pokemons/No_022.png",
-    "move": "--",
-    "skills": ["栽培", "亂撒"],
-    "habitat": "華麗的桌子",
-    "note": "任何區域・稀有",
-    "scatterItem": "藤蔓繩"
-}, {
-    "num": "023",
-    "name": "大食花",
-    "img": "pokopia_pokemons/No_023.png",
-    "move": "--",
-    "skills": ["栽培", "伐木"],
-    "habitat": "光與香氣的勾引",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "024",
-    "name": "呆呆獸",
-    "img": "pokopia_pokemons/No_024.png",
-    "move": "--",
-    "skills": ["滋潤", "哈欠"],
-    "habitat": "海浪邊的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "025",
-    "name": "呆殼獸",
-    "img": "pokopia_pokemons/No_025.png",
-    "move": "--",
-    "skills": ["滋潤", "交易"],
-    "habitat": "海浪邊的草叢",
-    "note": "任何區域・非常稀有",
-    "scatterItem": ""
-}, {
-    "num": "026",
-    "name": "呆呆王",
-    "img": "pokopia_pokemons/No_026.png",
-    "move": "--",
-    "skills": ["滋潤", "瞬間移動"],
-    "habitat": "海浪邊的草叢",
-    "note": "任何區域・非常稀有",
-    "scatterItem": ""
-}, {
-    "num": "027",
-    "name": "小磁怪",
-    "img": "pokopia_pokemons/No_027.png",
-    "move": "電磁漂浮",
-    "skills": ["發電"],
-    "habitat": "工廠倉庫",
-    "note": "乾巴巴的荒野城鎮，通關主線後可遇見。",
-    "scatterItem": ""
-}, {
-    "num": "028",
-    "name": "三合一磁怪",
-    "img": "pokopia_pokemons/No_028.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "垃圾桶擺好擺滿",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "029",
-    "name": "自爆磁怪",
-    "img": "pokopia_pokemons/No_029.png",
-    "move": "--",
-    "skills": ["回收利用", "發電"],
-    "habitat": "迷你遊戲城",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "030",
-    "name": "大岩蛇",
-    "img": "pokopia_pokemons/No_030.png",
-    "move": "--",
-    "skills": ["碾壓", "重踏"],
-    "habitat": "乾爽草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "031",
-    "name": "大鋼蛇",
-    "img": "pokopia_pokemons/No_031.png",
-    "move": "--",
-    "skills": ["碾壓", "重踏"],
-    "habitat": "鏘啷鏘啷鋼構工程",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "032",
-    "name": "卡拉卡拉",
-    "img": "pokopia_pokemons/No_032.png",
-    "move": "--",
-    "skills": ["建造"],
-    "habitat": "花朵纏繞的墓地",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "033",
-    "name": "嘎啦嘎啦",
-    "img": "pokopia_pokemons/No_033.png",
-    "move": "--",
-    "skills": ["建造"],
-    "habitat": "花朵纏繞的墓地",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "034",
-    "name": "無畏小子",
-    "img": "pokopia_pokemons/No_034.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "修行瀑布",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "035",
-    "name": "飛腿郎",
-    "img": "pokopia_pokemons/No_035.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "緊急救護所",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "036",
-    "name": "快拳郎",
-    "img": "pokopia_pokemons/No_036.png",
-    "move": "碎岩",
-    "skills": ["交易"],
-    "habitat": "健身區用餐區",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "037",
-    "name": "戰舞郎",
-    "img": "pokopia_pokemons/No_037.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "健身區救護站",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "038",
-    "name": "瓦斯彈",
-    "img": "pokopia_pokemons/No_038.png",
-    "move": "--",
-    "skills": ["回收利用"],
-    "habitat": "垃圾集中站",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "039",
-    "name": "雙彈瓦斯",
-    "img": "pokopia_pokemons/No_039.png",
-    "move": "--",
-    "skills": ["回收利用"],
-    "habitat": "懷舊古董",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "040",
-    "name": "蔓藤怪",
-    "img": "pokopia_pokemons/No_040.png",
-    "move": "--",
-    "skills": ["栽培", "亂撒"],
-    "habitat": "滿滿是寶可夢球",
-    "note": "--",
-    "scatterItem": "藤蔓繩"
-}, {
-    "num": "041",
-    "name": "巨蔓藤（博士）",
-    "img": "pokopia_pokemons/No_041.png",
-    "move": "--",
-    "skills": ["鑑定"],
-    "habitat": "博士的寶物",
-    "note": "--",
-    "scatterItem": "藤蔓繩"
-}, {
-    "num": "042",
-    "name": "飛天螳螂",
-    "img": "pokopia_pokemons/No_042.png",
-    "move": "居合斬",
-    "skills": ["伐木"],
-    "habitat": "樹蔭的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "043",
-    "name": "巨鉗螳螂",
-    "img": "pokopia_pokemons/No_043.png",
-    "move": "--",
-    "skills": ["伐木"],
-    "habitat": "樹蔭的草叢",
-    "note": "空空鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "044",
-    "name": "凱羅斯",
-    "img": "pokopia_pokemons/No_044.png",
-    "move": "--",
-    "skills": ["伐木", "建造"],
-    "habitat": "樹蔭的草叢",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "045",
-    "name": "鯉魚王",
-    "img": "pokopia_pokemons/No_045.png",
-    "move": "躍起",
-    "skills": ["--"],
-    "habitat": "海釣",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "046",
-    "name": "暴鯉龍",
-    "img": "pokopia_pokemons/No_046.png",
-    "move": "攀瀑",
-    "skills": ["滋潤"],
-    "habitat": "光照的瀑布",
-    "note": "亮晶晶的空島，瀑布邊可遇見",
-    "scatterItem": ""
-}, {
-    "num": "047",
-    "name": "百變怪",
-    "img": "pokopia_pokemons/No_047.png",
-    "move": "變身",
-    "skills": ["--"],
-    "habitat": "--",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "048",
-    "name": "咕咕",
-    "img": "pokopia_pokemons/No_048.png",
-    "move": "--",
-    "skills": ["飛翔", "交易"],
-    "habitat": "高崗的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "049",
-    "name": "貓頭夜鷹",
-    "img": "pokopia_pokemons/No_049.png",
-    "move": "--",
-    "skills": ["飛翔", "交易"],
-    "habitat": "柔光伴好眠",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "050",
-    "name": "赫拉克羅斯",
-    "img": "pokopia_pokemons/No_050.png",
-    "move": "--",
-    "skills": ["伐木", "建造"],
-    "habitat": "樹蔭的草叢",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "051",
-    "name": "電螢蟲",
-    "img": "pokopia_pokemons/No_051.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "濕潤的花田",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "052",
-    "name": "甜甜螢",
-    "img": "pokopia_pokemons/No_052.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "濕潤的花田",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "053",
-    "name": "溶食獸",
-    "img": "pokopia_pokemons/No_053.png",
-    "move": "--",
-    "skills": ["收納"],
-    "habitat": "餓肚肚用餐區",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "054",
-    "name": "吞食獸",
-    "img": "pokopia_pokemons/No_054.png",
-    "move": "--",
-    "skills": ["收納"],
-    "habitat": "充滿期待的餐桌",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "055",
-    "name": "刺球仙人掌",
-    "img": "pokopia_pokemons/No_055.png",
-    "move": "--",
-    "skills": ["栽培"],
-    "habitat": "大晴天地點",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "056",
-    "name": "夢歌仙人掌",
-    "img": "pokopia_pokemons/No_056.png",
-    "move": "--",
-    "skills": ["栽培", "亂撒"],
-    "habitat": "樹蔭的花田",
-    "note": "任何區域・稀有",
-    "scatterItem": "結實的樹枝"
-}, {
-    "num": "057",
-    "name": "三蜜蜂",
-    "img": "pokopia_pokemons/No_057.png",
-    "move": "--",
-    "skills": ["亂撒"],
-    "habitat": "漂亮的花田",
-    "note": "任何區域・普通",
-    "scatterItem": "甜甜蜜"
-}, {
-    "num": "058",
-    "name": "蜂女王",
-    "img": "pokopia_pokemons/No_058.png",
-    "move": "--",
-    "skills": ["找東西", "採蜜"],
-    "habitat": "整片的花海",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "059",
-    "name": "無殼海兔",
-    "img": "pokopia_pokemons/No_059.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "指路牌",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "060",
-    "name": "海兔獸",
-    "img": "pokopia_pokemons/No_060.png",
-    "move": "--",
-    "skills": ["滋潤", "交易"],
-    "habitat": "海釣",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "061",
-    "name": "飄飄球",
-    "img": "pokopia_pokemons/No_061.png",
-    "move": "--",
-    "skills": ["夢島"],
-    "habitat": "乘上暖風",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "062",
-    "name": "隨風球",
-    "img": "pokopia_pokemons/No_062.png",
-    "move": "--",
-    "skills": ["飛翔", "分類"],
-    "habitat": "被布偶圍滿",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "063",
-    "name": "螺釘地鼠",
-    "img": "pokopia_pokemons/No_063.png",
-    "move": "耕地",
-    "skills": ["找東西"],
-    "habitat": "新鮮蔬菜田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "064",
-    "name": "龍頭地鼠",
-    "img": "pokopia_pokemons/No_064.png",
-    "move": "--",
-    "skills": ["伐木", "找東西"],
-    "habitat": "新鮮蔬菜田",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "065",
-    "name": "搬運小匠",
-    "img": "pokopia_pokemons/No_065.png",
-    "move": "--",
-    "skills": ["建造"],
-    "habitat": "岩影的草地",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "066",
-    "name": "鐵骨土人",
-    "img": "pokopia_pokemons/No_066.png",
-    "move": "--",
-    "skills": ["建造"],
-    "habitat": "岩影的草地",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "067",
-    "name": "修建老匠",
-    "img": "pokopia_pokemons/No_067.png",
-    "move": "--",
-    "skills": ["建造", "碾壓"],
-    "habitat": "施工地的發電站",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "068",
-    "name": "燭光靈",
-    "img": "pokopia_pokemons/No_068.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "墓前的供品",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "069",
-    "name": "燈火幽靈",
-    "img": "pokopia_pokemons/No_069.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "墓前的供品",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "070",
-    "name": "水晶燈火靈",
-    "img": "pokopia_pokemons/No_070.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "詭異墓前的供品",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "071",
-    "name": "牙牙",
-    "img": "pokopia_pokemons/No_071.png",
-    "move": "--",
-    "skills": ["伐木"],
-    "habitat": "圓木的溫馨感",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "072",
-    "name": "斧牙龍",
-    "img": "pokopia_pokemons/No_072.png",
-    "move": "--",
-    "skills": ["伐木"],
-    "habitat": "樵夫的工作區",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "073",
-    "name": "雙斧戰龍",
-    "img": "pokopia_pokemons/No_073.png",
-    "move": "--",
-    "skills": ["伐木", "亂撒"],
-    "habitat": "圓木的溫馨感",
-    "note": "--",
-    "scatterItem": "小圓木"
-}, {
-    "num": "074",
-    "name": "黏黏寶",
-    "img": "pokopia_pokemons/No_074.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "樹蔭的花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "075",
-    "name": "黏美兒",
-    "img": "pokopia_pokemons/No_075.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "濕潤的草地",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "076",
-    "name": "黏美龍",
-    "img": "pokopia_pokemons/No_076.png",
-    "move": "--",
-    "skills": ["滋潤", "交易"],
-    "habitat": "樹果大集合",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "077",
-    "name": "古月鳥",
-    "img": "pokopia_pokemons/No_077.png",
-    "move": "--",
-    "skills": ["滋潤", "飛翔"],
-    "habitat": "濕潤的草地",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "078",
-    "name": "皮丘",
-    "img": "pokopia_pokemons/No_078.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "野餐風餐桌",
-    "note": "乾巴巴的荒野城鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "079",
-    "name": "皮卡丘（淺色）",
-    "img": "pokopia_pokemons/No_079.png",
-    "move": "--",
-    "skills": ["發光"],
-    "habitat": "野餐風餐桌",
-    "note": "暗沉沉的海邊城鎮",
-    "scatterItem": ""
-}, {
-    "num": "079",
-    "name": "皮卡丘（一般）",
-    "img": "pokopia_pokemons/No_079_2.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "野餐風餐桌",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "080",
-    "name": "雷丘",
-    "img": "pokopia_pokemons/No_080.png",
-    "move": "--",
-    "skills": ["發電", "帶動氣氛"],
-    "habitat": "大自然的市場",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "081",
-    "name": "超音蝠",
-    "img": "pokopia_pokemons/No_081.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "樹蔭的黃色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "082",
-    "name": "大嘴蝠",
-    "img": "pokopia_pokemons/No_082.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "樹蔭的黃色草叢",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "083",
-    "name": "叉字蝠",
-    "img": "pokopia_pokemons/No_083.png",
-    "move": "--",
-    "skills": ["伐木", "找東西"],
-    "habitat": "高崗的黃色草叢",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "084",
-    "name": "喵喵",
-    "img": "pokopia_pokemons/No_084.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "休息好地方",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "085",
-    "name": "貓老大",
-    "img": "pokopia_pokemons/No_085.png",
-    "move": "--",
-    "skills": ["找東西", "交易"],
-    "habitat": "邪惡組織的秘密基地",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "086",
-    "name": "可達鴨",
-    "img": "pokopia_pokemons/No_086.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "溫泉沖洗區",
-    "note": "任何區域・普通（溫泉）",
-    "scatterItem": ""
-}, {
-    "num": "087",
-    "name": "哥達鴨",
-    "img": "pokopia_pokemons/No_087.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "溫泉沖洗區",
-    "note": "--（溫泉）",
-    "scatterItem": ""
-}, {
-    "num": "088",
-    "name": "卡蒂狗",
-    "img": "pokopia_pokemons/No_088.png",
-    "move": "--",
-    "skills": ["點火", "找東西"],
-    "habitat": "來收拾吧",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "089",
-    "name": "風速狗",
-    "img": "pokopia_pokemons/No_089.png",
-    "move": "--",
-    "skills": ["點火", "找東西"],
-    "habitat": "熔岩釣",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "090",
-    "name": "大蔥鴨",
-    "img": "pokopia_pokemons/No_090.png",
-    "move": "--",
-    "skills": ["伐木", "建造"],
-    "habitat": "打包好囉",
-    "note": "任何區域",
-    "scatterItem": ""
-}, {
-    "num": "091",
-    "name": "臭泥",
-    "img": "pokopia_pokemons/No_091.png",
-    "move": "--",
-    "skills": ["亂撒"],
-    "habitat": "沼澤釣",
-    "note": "--",
-    "scatterItem": "不可燃垃圾"
-}, {
-    "num": "092",
-    "name": "臭臭泥",
-    "img": "pokopia_pokemons/No_092.png",
-    "move": "--",
-    "skills": ["亂撒"],
-    "habitat": "沼澤釣",
-    "note": "--",
-    "scatterItem": "不可燃垃圾"
-}, {
-    "num": "093",
-    "name": "鬼斯",
-    "img": "pokopia_pokemons/No_093.png",
-    "move": "--",
-    "skills": ["分類", "交易"],
-    "habitat": "詭異書房",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "094",
-    "name": "鬼斯通",
-    "img": "pokopia_pokemons/No_094.png",
-    "move": "--",
-    "skills": ["分類", "交易"],
-    "habitat": "小心機關",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "095",
-    "name": "耿鬼",
-    "img": "pokopia_pokemons/No_095.png",
-    "move": "--",
-    "skills": ["分類", "交易"],
-    "habitat": "小心機關",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "096",
-    "name": "霹靂電球",
-    "img": "pokopia_pokemons/No_096.png",
-    "move": "--",
-    "skills": ["發電", "爆炸"],
-    "habitat": "公園的長椅",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "097",
-    "name": "頑皮雷彈",
-    "img": "pokopia_pokemons/No_097.png",
-    "move": "--",
-    "skills": ["發電", "爆炸"],
-    "habitat": "公園的長椅",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "098",
-    "name": "蛋蛋",
-    "img": "pokopia_pokemons/No_098.png",
-    "move": "--",
-    "skills": ["栽培", "瞬間移動"],
-    "habitat": "南國氣氛",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "099",
-    "name": "椰蛋樹",
-    "img": "pokopia_pokemons/No_099.png",
-    "move": "--",
-    "skills": ["栽培", "瞬間移動"],
-    "habitat": "沙灘的樹蔭",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "100",
-    "name": "小福蛋",
-    "img": "pokopia_pokemons/No_100.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "鬧鐘床鋪空間",
-    "note": "任何區域",
-    "scatterItem": ""
-}, {
-    "num": "101",
-    "name": "吉利蛋",
-    "img": "pokopia_pokemons/No_101.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "痊癒前好好休息",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "102",
-    "name": "幸福蛋",
-    "img": "pokopia_pokemons/No_102.png",
-    "move": "--",
-    "skills": ["亂撒", "交易"],
-    "habitat": "超可愛空間",
-    "note": "--",
-    "scatterItem": "石頭"
-}, {
-    "num": "103",
-    "name": "電擊怪",
-    "img": "pokopia_pokemons/No_103.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "自動販賣機套組",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "104",
-    "name": "電擊獸",
-    "img": "pokopia_pokemons/No_104.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "燈光舞台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "105",
-    "name": "電擊魔獸",
-    "img": "pokopia_pokemons/No_105.png",
-    "move": "--",
-    "skills": ["發電", "碾壓"],
-    "habitat": "燈光舞台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "106",
-    "name": "拉普拉斯",
-    "img": "pokopia_pokemons/No_106.png",
-    "move": "衝浪",
-    "skills": ["滋潤"],
-    "habitat": "熱帶海岸邊",
-    "note": "暗沉沉的海邊城鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "107",
-    "name": "小卡比獸",
-    "img": "pokopia_pokemons/No_107.png",
-    "move": "--",
-    "skills": ["重踏"],
-    "habitat": "樹蔭下熟睡的卡比獸",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "108",
-    "name": "卡比獸（萌苔）",
-    "img": "pokopia_pokemons/No_108.png",
-    "move": "--",
-    "skills": ["貪吃鬼"],
-    "habitat": "供奉美食",
-    "note": "暗沉沉的海邊城鎮",
-    "scatterItem": ""
-}, {
-    "num": "108",
-    "name": "卡比獸（一般）",
-    "img": "pokopia_pokemons/No_108_2.png",
-    "move": "--",
-    "skills": ["重踏", "交易"],
-    "habitat": "樹蔭下熟睡的卡比獸",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "109",
-    "name": "圓絲蛛",
-    "img": "pokopia_pokemons/No_109.png",
-    "move": "--",
-    "skills": ["亂撒"],
-    "habitat": "黃色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": "線團"
-}, {
-    "num": "110",
-    "name": "阿利多斯",
-    "img": "pokopia_pokemons/No_110.png",
-    "move": "--",
-    "skills": ["亂撒"],
-    "habitat": "黃色的草叢",
-    "note": "--",
-    "scatterItem": "線團"
-}, {
-    "num": "111",
-    "name": "咩利羊",
-    "img": "pokopia_pokemons/No_111.png",
-    "move": "--",
-    "skills": ["發電", "亂撒"],
-    "habitat": "用毛線來織東西吧",
-    "note": "任何區域・普通",
-    "scatterItem": "棉花"
-}, {
-    "num": "112",
-    "name": "茸茸羊",
-    "img": "pokopia_pokemons/No_112.png",
-    "move": "--",
-    "skills": ["發電", "亂撒"],
-    "habitat": "夜晚的慶典會場",
-    "note": "--",
-    "scatterItem": "棉花"
-}, {
-    "num": "113",
-    "name": "電龍",
-    "img": "pokopia_pokemons/No_113.png",
-    "move": "--",
-    "skills": ["發電", "交易"],
-    "habitat": "自然風格的生活",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "114",
-    "name": "露力麗",
-    "img": "pokopia_pokemons/No_114.png",
-    "move": "--",
-    "skills": ["滋潤", "帶動氣氛"],
-    "habitat": "濕潤的黃色草叢",
-    "note": "任何區域",
-    "scatterItem": ""
-}, {
-    "num": "115",
-    "name": "瑪力露",
-    "img": "pokopia_pokemons/No_115.png",
-    "move": "--",
-    "skills": ["滋潤", "帶動氣氛"],
-    "habitat": "濕潤的黃色草叢",
-    "note": "任何區域",
-    "scatterItem": ""
-}, {
-    "num": "116",
-    "name": "瑪力露麗",
-    "img": "pokopia_pokemons/No_116.png",
-    "move": "--",
-    "skills": ["滋潤", "建造"],
-    "habitat": "碼頭",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "117",
-    "name": "烏波-帕底亞",
-    "img": "pokopia_pokemons/No_117.png",
-    "move": "--",
-    "skills": ["亂撒"],
-    "habitat": "沼澤的草叢",
-    "note": "--",
-    "scatterItem": "軟塌塌黏土"
-}, {
-    "num": "118",
-    "name": "土王",
-    "img": "pokopia_pokemons/No_118.png",
-    "move": "--",
-    "skills": ["重踏", "亂撒"],
-    "habitat": "沼澤的草叢",
-    "note": "--",
-    "scatterItem": "軟塌塌黏土"
-}, {
-    "num": "119",
-    "name": "圖圖犬（彩繪匠）",
-    "img": "pokopia_pokemons/No_119.png",
-    "move": "--",
-    "skills": ["彩繪"],
-    "habitat": "小小畫室",
-    "note": "暗沉沉的海邊城鎮，可遇見",
-    "scatterItem": ""
-}, {
-    "num": "120",
-    "name": "火雉雞",
-    "img": "pokopia_pokemons/No_120.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "咕咕啾啾大餐",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "121",
-    "name": "力壯雞",
-    "img": "pokopia_pokemons/No_121.png",
-    "move": "--",
-    "skills": ["點火", "建造"],
-    "habitat": "火力發電廠",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "122",
-    "name": "火焰雞",
-    "img": "pokopia_pokemons/No_122.png",
-    "move": "--",
-    "skills": ["點火", "建造"],
-    "habitat": "咕咕啾啾大餐",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "123",
-    "name": "長翅鷗",
-    "img": "pokopia_pokemons/No_123.png",
-    "move": "--",
-    "skills": ["滋潤", "飛翔"],
-    "habitat": "高崗的黃色草叢",
-    "note": "任何區域・普通（高處）",
-    "scatterItem": ""
-}, {
-    "num": "124",
-    "name": "大嘴鷗",
-    "img": "pokopia_pokemons/No_124.png",
-    "move": "--",
-    "skills": ["滋潤", "飛翔"],
-    "habitat": "風之花田",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "125",
-    "name": "幕下力士",
-    "img": "pokopia_pokemons/No_125.png",
-    "move": "--",
-    "skills": ["建造", "重踏"],
-    "habitat": "樹蔭的黃色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "126",
-    "name": "鐵掌力士",
-    "img": "pokopia_pokemons/No_126.png",
-    "move": "--",
-    "skills": ["建造", "重踏"],
-    "habitat": "高崗的黃色草叢",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "127",
-    "name": "阿勃梭魯",
-    "img": "pokopia_pokemons/No_127.png",
-    "move": "--",
-    "skills": ["伐木"],
-    "habitat": "歡迎光臨度假村",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "128",
-    "name": "波加曼",
-    "img": "pokopia_pokemons/No_128.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "濕潤的黃色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "129",
-    "name": "波皇子",
-    "img": "pokopia_pokemons/No_129.png",
-    "move": "--",
-    "skills": ["滋潤", "交易"],
-    "habitat": "濕潤的黃色草叢",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "130",
-    "name": "帝王拿波",
-    "img": "pokopia_pokemons/No_130.png",
-    "move": "--",
-    "skills": ["滋潤", "交易"],
-    "habitat": "料理送來了",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "131",
-    "name": "差不多娃娃",
-    "img": "pokopia_pokemons/No_131.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "到收銀檯結帳",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "132",
-    "name": "破破袋",
-    "img": "pokopia_pokemons/No_132.png",
-    "move": "--",
-    "skills": ["回收利用"],
-    "habitat": "垃圾集中站",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "133",
-    "name": "灰塵山",
-    "img": "pokopia_pokemons/No_133.png",
-    "move": "--",
-    "skills": ["回收利用", "亂撒"],
-    "habitat": "垃圾集中站",
-    "note": "--",
-    "scatterItem": "不可燃垃圾"
-}, {
-    "num": "134",
-    "name": "索羅亞",
-    "img": "pokopia_pokemons/No_134.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "涼爽的花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "135",
-    "name": "索羅亞克",
-    "img": "pokopia_pokemons/No_135.png",
-    "move": "--",
-    "skills": ["伐木", "交易"],
-    "habitat": "小心機關",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "136",
-    "name": "泡沫栗鼠",
-    "img": "pokopia_pokemons/No_136.png",
-    "move": "--",
-    "skills": ["分類"],
-    "habitat": "更衣區",
-    "note": "任何區域",
-    "scatterItem": ""
-}, {
-    "num": "137",
-    "name": "奇諾栗鼠",
-    "img": "pokopia_pokemons/No_137.png",
-    "move": "--",
-    "skills": ["回收利用", "分類"],
-    "habitat": "更衣中別偷看",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "138",
-    "name": "強顎雞母蟲",
-    "img": "pokopia_pokemons/No_138.png",
-    "move": "--",
-    "skills": ["伐木"],
-    "habitat": "黃色的草叢",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "139",
-    "name": "蟲電寶",
-    "img": "pokopia_pokemons/No_139.png",
-    "move": "--",
-    "skills": ["伐木", "發電"],
-    "habitat": "自動販賣機旁偷個閒",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "140",
-    "name": "鍬農炮蟲",
-    "img": "pokopia_pokemons/No_140.png",
-    "move": "--",
-    "skills": ["伐木", "發電"],
-    "habitat": "樹蔭的花田",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "141",
-    "name": "謎擬Q",
-    "img": "pokopia_pokemons/No_141.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "皮卡丘空間",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "142",
-    "name": "布撥",
-    "img": "pokopia_pokemons/No_142.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "涼爽的花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "143",
-    "name": "布土撥",
-    "img": "pokopia_pokemons/No_143.png",
-    "move": "--",
-    "skills": ["發電", "碾壓"],
-    "habitat": "餓肚肚用餐區",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "144",
-    "name": "巴布土撥",
-    "img": "pokopia_pokemons/No_144.png",
-    "move": "--",
-    "skills": ["發電", "碾壓"],
-    "habitat": "咖啡空間",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "145",
-    "name": "米立龍",
-    "img": "pokopia_pokemons/No_145.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "海灘套組",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "146",
-    "name": "阿柏蛇",
-    "img": "pokopia_pokemons/No_146.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "濕潤的優雅花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "147",
-    "name": "阿柏怪",
-    "img": "pokopia_pokemons/No_147.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "濕潤的優雅花田",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "148",
-    "name": "皮寶寶",
-    "img": "pokopia_pokemons/No_148.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "優雅的花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "149",
-    "name": "皮皮",
-    "img": "pokopia_pokemons/No_149.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "銅像景點",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "150",
-    "name": "皮可西",
-    "img": "pokopia_pokemons/No_150.png",
-    "move": "--",
-    "skills": ["交易", "帶動氣氛"],
-    "habitat": "銅像景點",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "151",
-    "name": "寶寶丁",
-    "img": "pokopia_pokemons/No_151.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "花田的樹樁舞台",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "152",
-    "name": "胖丁",
-    "img": "pokopia_pokemons/No_152.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "花田的樹樁舞台",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "153",
-    "name": "胖可丁",
-    "img": "pokopia_pokemons/No_153.png",
-    "move": "--",
-    "skills": ["交易", "帶動氣氛"],
-    "habitat": "演唱會舞台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "154",
-    "name": "地鼠",
-    "img": "pokopia_pokemons/No_154.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "樹蔭的紅色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "155",
-    "name": "三地鼠",
-    "img": "pokopia_pokemons/No_155.png",
-    "move": "--",
-    "skills": ["碾壓", "帶動氣氛"],
-    "habitat": "大家一起派對",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "156",
-    "name": "腕力",
-    "img": "pokopia_pokemons/No_156.png",
-    "move": "--",
-    "skills": ["建造", "分類"],
-    "habitat": "岩影的草地",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "157",
-    "name": "豪力",
-    "img": "pokopia_pokemons/No_157.png",
-    "move": "--",
-    "skills": ["建造", "分類"],
-    "habitat": "草叢訓練場",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "158",
-    "name": "怪力",
-    "img": "pokopia_pokemons/No_158.png",
-    "move": "--",
-    "skills": ["建造", "分類"],
-    "habitat": "鏘啷鏘啷鋼構工程",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "159",
-    "name": "小拳石",
-    "img": "pokopia_pokemons/No_159.png",
-    "move": "--",
-    "skills": ["碾壓"],
-    "habitat": "綠色的草叢",
-    "note": "空空鎮",
-    "scatterItem": ""
-}, {
-    "num": "160",
-    "name": "隆隆石",
-    "img": "pokopia_pokemons/No_160.png",
-    "move": "滾動",
-    "skills": ["碾壓"],
-    "habitat": "滿滿是苔的岩石",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "161",
-    "name": "隆隆岩",
-    "img": "pokopia_pokemons/No_161.png",
-    "move": "--",
-    "skills": ["碾壓", "交易"],
-    "habitat": "滿滿是苔的岩石",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "162",
-    "name": "鴨嘴寶寶",
-    "img": "pokopia_pokemons/No_162.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "漂亮的花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "163",
-    "name": "鴨嘴火獸",
-    "img": "pokopia_pokemons/No_163.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "挖挖又燒燒",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "164",
-    "name": "鴨嘴炎獸",
-    "img": "pokopia_pokemons/No_164.png",
-    "move": "--",
-    "skills": ["點火", "碾壓"],
-    "habitat": "迷你廚房",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "165",
-    "name": "盆才怪",
-    "img": "pokopia_pokemons/No_165.png",
-    "move": "--",
-    "skills": ["重踏"],
-    "habitat": "樹蔭的紅色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "166",
-    "name": "樹才怪",
-    "img": "pokopia_pokemons/No_166.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "大家一起派對",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "167",
-    "name": "黑暗鴨",
-    "img": "pokopia_pokemons/No_167.png",
-    "move": "--",
-    "skills": ["飛翔", "交易"],
-    "habitat": "高崗的紅色草叢",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "168",
-    "name": "烏鴉頭頭",
-    "img": "pokopia_pokemons/No_168.png",
-    "move": "--",
-    "skills": ["飛翔", "交易"],
-    "habitat": "啁啁啾啾演唱會",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "169",
-    "name": "幼基拉斯",
-    "img": "pokopia_pokemons/No_169.png",
-    "move": "--",
-    "skills": ["重踏", "碾壓"],
-    "habitat": "滿滿是苔",
-    "note": "任何區域",
-    "scatterItem": ""
-}, {
-    "num": "170",
-    "name": "沙基拉斯",
-    "img": "pokopia_pokemons/No_170.png",
-    "move": "--",
-    "skills": ["重踏", "碾壓"],
-    "habitat": "樹蔭的粉色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "171",
-    "name": "班基拉斯",
-    "img": "pokopia_pokemons/No_171.png",
-    "move": "--",
-    "skills": ["重踏", "碾壓"],
-    "habitat": "手推車蔬菜田",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "172",
-    "name": "蓮葉童子",
-    "img": "pokopia_pokemons/No_172.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "濕潤的紅色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "173",
-    "name": "蓮帽小童",
-    "img": "pokopia_pokemons/No_173.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "快樂無比的水坑",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "174",
-    "name": "樂天河童",
-    "img": "pokopia_pokemons/No_174.png",
-    "move": "--",
-    "skills": ["滋潤", "帶動氣氛"],
-    "habitat": "快樂無比的水坑",
-    "note": "任何區域・稀有",
-    "scatterItem": ""
-}, {
-    "num": "175",
-    "name": "大嘴娃",
-    "img": "pokopia_pokemons/No_175.png",
-    "move": "--",
-    "skills": ["建造", "交易"],
-    "habitat": "到收銀檯結帳",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "176",
-    "name": "煤炭龜",
-    "img": "pokopia_pokemons/No_176.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "生苔的溫泉",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "177",
-    "name": "圓法師",
-    "img": "pokopia_pokemons/No_177.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "紅色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "178",
-    "name": "音箱蟀",
-    "img": "pokopia_pokemons/No_178.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "音樂和閱讀",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "179",
-    "name": "聒噪鳥",
-    "img": "pokopia_pokemons/No_179.png",
-    "move": "--",
-    "skills": ["飛翔", "帶動氣氛"],
-    "habitat": "高崗的紅色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "180",
-    "name": "利歐路",
-    "img": "pokopia_pokemons/No_180.png",
-    "move": "--",
-    "skills": ["建造"],
-    "habitat": "紅色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "181",
-    "name": "路卡利歐",
-    "img": "pokopia_pokemons/No_181.png",
-    "move": "--",
-    "skills": ["建造"],
-    "habitat": "跟著節奏一二跳",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "182",
-    "name": "洛托姆（立體音響洛托姆）",
-    "img": "pokopia_pokemons/No_182.png",
-    "move": "--",
-    "skills": ["DJ"],
-    "habitat": "音樂和閱讀",
-    "note": "凸隆隆山地",
-    "scatterItem": ""
-}, {
-    "num": "183",
-    "name": "燃燒蟲",
-    "img": "pokopia_pokemons/No_183.png",
-    "move": "--",
-    "skills": ["點火", "亂撒"],
-    "habitat": "樹蔭的優雅花田",
-    "note": "任何區域・普通",
-    "scatterItem": "線團"
-}, {
-    "num": "184",
-    "name": "火神蛾",
-    "img": "pokopia_pokemons/No_184.png",
-    "move": "--",
-    "skills": ["點火", "亂撒"],
-    "habitat": "熔岩熔岩熱呼呼",
-    "note": "--",
-    "scatterItem": "線團"
-}, {
-    "num": "185",
-    "name": "木木梟",
-    "img": "pokopia_pokemons/No_185.png",
-    "move": "--",
-    "skills": ["栽培"],
-    "habitat": "新鮮蔬菜田",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "186",
-    "name": "投羽梟",
-    "img": "pokopia_pokemons/No_186.png",
-    "move": "--",
-    "skills": ["栽培", "伐木"],
-    "habitat": "三角形樹蔭下的岩石與草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "187",
-    "name": "狙射樹梟",
-    "img": "pokopia_pokemons/No_187.png",
-    "move": "--",
-    "skills": ["栽培", "伐木"],
-    "habitat": "現代生活",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "188",
-    "name": "炎兔兒",
-    "img": "pokopia_pokemons/No_188.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "紅色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "189",
-    "name": "騰蹴小將",
-    "img": "pokopia_pokemons/No_189.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "露天溫泉",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "190",
-    "name": "閃焰王牌",
-    "img": "pokopia_pokemons/No_190.png",
-    "move": "--",
-    "skills": ["點火", "帶動氣氛"],
-    "habitat": "清爽的更衣室",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "191",
-    "name": "貪吃栗鼠",
-    "img": "pokopia_pokemons/No_191.png",
-    "move": "--",
-    "skills": ["找東西", "帶動氣氛"],
-    "habitat": "樹蔭的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "192",
-    "name": "藏飽栗鼠（廚師）",
-    "img": "pokopia_pokemons/No_192.png",
-    "move": "--",
-    "skills": ["開派對"],
-    "habitat": "主廚的廚房",
-    "note": "凸隆隆山地，解鎖劈開木桶任務可遇見。帶他去做料理，玩家的料理數量會增加。",
-    "scatterItem": ""
-}, {
-    "num": "193",
-    "name": "小炭仔",
-    "img": "pokopia_pokemons/No_193.png",
-    "move": "--",
-    "skills": ["點火", "分類"],
-    "habitat": "平交道",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "194",
-    "name": "大炭車",
-    "img": "pokopia_pokemons/No_194.png",
-    "move": "--",
-    "skills": ["點火", "分類"],
-    "habitat": "平交道",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "195",
-    "name": "巨炭山",
-    "img": "pokopia_pokemons/No_195.png",
-    "move": "--",
-    "skills": ["點火", "分類"],
-    "habitat": "沉甸甸的鐵",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "196",
-    "name": "毒電嬰",
-    "img": "pokopia_pokemons/No_196.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "悠閒回顧照片",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "197",
-    "name": "顫弦蠑螈-高調",
-    "img": "pokopia_pokemons/No_197.png",
-    "move": "--",
-    "skills": ["發電", "帶動氣氛"],
-    "habitat": "高調的搖滾舞台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "197",
-    "name": "顫弦蠑螈-低調",
-    "img": "pokopia_pokemons/No_197_2.png",
-    "move": "--",
-    "skills": ["發電", "帶動氣氛"],
-    "habitat": "低調的搖滾舞台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "198",
-    "name": "狗仔包",
-    "img": "pokopia_pokemons/No_198.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "優雅的花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "199",
-    "name": "麻花犬",
-    "img": "pokopia_pokemons/No_199.png",
-    "move": "--",
-    "skills": ["找東西", "交易"],
-    "habitat": "大口吃麵包工坊",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "200",
-    "name": "炭小侍",
-    "img": "pokopia_pokemons/No_200.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "熔岩熔岩熱呼呼",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "201",
-    "name": "紅蓮鎧騎",
-    "img": "pokopia_pokemons/No_201.png",
-    "move": "--",
-    "skills": ["點火", "交易"],
-    "habitat": "忠誠騎士的祭壇",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "202",
-    "name": "蒼炎刃鬼",
-    "img": "pokopia_pokemons/No_202.png",
-    "move": "--",
-    "skills": ["點火", "交易"],
-    "habitat": "怨念騎士的祭壇",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "203",
-    "name": "晶光芽",
-    "img": "pokopia_pokemons/No_203.png",
-    "move": "--",
-    "skills": ["亂撒"],
-    "habitat": "詭異的白色岩石",
-    "note": "--",
-    "scatterItem": "鐵"
-}, {
-    "num": "204",
-    "name": "晶光花",
-    "img": "pokopia_pokemons/No_204.png",
-    "move": "--",
-    "skills": ["亂撒"],
-    "habitat": "詭異的白色岩石",
-    "note": "--",
-    "scatterItem": "鐵"
-}, {
-    "num": "206",
-    "name": "賽富豪",
-    "img": "pokopia_pokemons/No_206.png",
-    "move": "--",
-    "skills": ["收藏家"],
-    "habitat": "極致豪華",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "207",
-    "name": "六尾",
-    "img": "pokopia_pokemons/No_207.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "軟綿綿的花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "208",
-    "name": "九尾",
-    "img": "pokopia_pokemons/No_208.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "九道火焰",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "209",
-    "name": "蚊香蝌蚪",
-    "img": "pokopia_pokemons/No_209.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "咻咻打掃",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "210",
-    "name": "蚊香蛙",
-    "img": "pokopia_pokemons/No_210.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "濕潤的軟綿綿花田",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "211",
-    "name": "蚊香泳士",
-    "img": "pokopia_pokemons/No_211.png",
-    "move": "--",
-    "skills": ["滋潤", "建造"],
-    "habitat": "在道場訓練",
-    "note": "亮晶晶的空島，可遇見。",
-    "scatterItem": ""
-}, {
-    "num": "212",
-    "name": "蚊香蛙皇",
-    "img": "pokopia_pokemons/No_212.png",
-    "move": "--",
-    "skills": ["滋潤", "帶動氣氛"],
-    "habitat": "養生溫泉",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "213",
-    "name": "凱西",
-    "img": "pokopia_pokemons/No_213.png",
-    "move": "--",
-    "skills": ["瞬間移動"],
-    "habitat": "水晶占卜",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "214",
-    "name": "勇基拉",
-    "img": "pokopia_pokemons/No_214.png",
-    "move": "--",
-    "skills": ["瞬間移動"],
-    "habitat": "水晶占卜",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "215",
-    "name": "胡地",
-    "img": "pokopia_pokemons/No_215.png",
-    "move": "--",
-    "skills": ["瞬間移動", "交易"],
-    "habitat": "滿溢的超能力",
-    "note": "亮晶晶的空島",
-    "scatterItem": ""
-}, {
-    "num": "216",
-    "name": "魔尼尼",
-    "img": "pokopia_pokemons/No_216.png",
-    "move": "--",
-    "skills": ["分類"],
-    "habitat": "亮晶晶洗手台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "217",
-    "name": "魔牆人偶",
-    "img": "pokopia_pokemons/No_217.png",
-    "move": "--",
-    "skills": ["建造", "分類"],
-    "habitat": "亮晶晶洗手台",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "218",
-    "name": "多邊獸",
-    "img": "pokopia_pokemons/No_218.png",
-    "move": "--",
-    "skills": ["回收利用"],
-    "habitat": "研究員的桌子",
-    "note": "會教導無線電波發射器材料單，可替代電線桿。",
-    "scatterItem": ""
-}, {
-    "num": "219",
-    "name": "多邊獸2",
-    "img": "pokopia_pokemons/No_219.png",
-    "move": "--",
-    "skills": ["回收利用"],
-    "habitat": "辦公桌",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "220",
-    "name": "多邊獸Z",
-    "img": "pokopia_pokemons/No_220.png",
-    "move": "--",
-    "skills": ["稀有化"],
-    "habitat": "遊戲連線對戰",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "221",
-    "name": "迷你龍",
-    "img": "pokopia_pokemons/No_221.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "簡約浴室",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "222",
-    "name": "哈克龍",
-    "img": "pokopia_pokemons/No_222.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "簡約浴室",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "223",
-    "name": "快龍",
-    "img": "pokopia_pokemons/No_223.png",
-    "move": "滑翔",
-    "skills": ["滋潤", "飛翔"],
-    "habitat": "水邊小船",
-    "note": "亮晶晶的空島",
-    "scatterItem": ""
-}, {
-    "num": "224",
-    "name": "火球鼠",
-    "img": "pokopia_pokemons/No_224.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "水管秘密基地",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "225",
-    "name": "火岩鼠",
-    "img": "pokopia_pokemons/No_225.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "暖爐旁打盹",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "226",
-    "name": "火爆獸",
-    "img": "pokopia_pokemons/No_226.png",
-    "move": "--",
-    "skills": ["點火", "交易"],
-    "habitat": "流行潮流",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "227",
-    "name": "夢妖",
-    "img": "pokopia_pokemons/No_227.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "軟綿綿的花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "228",
-    "name": "夢妖魔",
-    "img": "pokopia_pokemons/No_228.png",
-    "move": "--",
-    "skills": ["分類", "交易"],
-    "habitat": "家庭影院",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "229",
-    "name": "麒麟奇",
-    "img": "pokopia_pokemons/No_229.png",
-    "move": "--",
-    "skills": ["分類"],
-    "habitat": "樹蔭的軟綿綿花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "230",
-    "name": "奇麒麟",
-    "img": "pokopia_pokemons/No_230.png",
-    "move": "--",
-    "skills": ["找東西", "分類"],
-    "habitat": "樹蔭的軟綿綿花田",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "231",
-    "name": "拉魯拉絲",
-    "img": "pokopia_pokemons/No_231.png",
-    "move": "--",
-    "skills": ["瞬間移動"],
-    "habitat": "學習空間",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "232",
-    "name": "奇魯莉安",
-    "img": "pokopia_pokemons/No_232.png",
-    "move": "--",
-    "skills": ["瞬間移動"],
-    "habitat": "質感化妝台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "233",
-    "name": "沙奈朵",
-    "img": "pokopia_pokemons/No_233.png",
-    "move": "--",
-    "skills": ["瞬間移動", "交易"],
-    "habitat": "迷你圖書館",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "234",
-    "name": "艾路雷朵",
-    "img": "pokopia_pokemons/No_234.png",
-    "move": "--",
-    "skills": ["建造", "瞬間移動"],
-    "habitat": "在道場訓練",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "235",
-    "name": "正電拍拍",
-    "img": "pokopia_pokemons/No_235.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "絕景拍照版",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "236",
-    "name": "負電拍拍",
-    "img": "pokopia_pokemons/No_236.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "絕景拍照版",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "237",
-    "name": "大顎蟻",
-    "img": "pokopia_pokemons/No_237.png",
-    "move": "--",
-    "skills": ["重踏", "亂撒"],
-    "habitat": "粉色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": "軟塌塌黏土"
-}, {
-    "num": "238",
-    "name": "超音波幼蟲",
-    "img": "pokopia_pokemons/No_238.png",
-    "move": "--",
-    "skills": ["重踏", "飛翔"],
-    "habitat": "粉色的草叢",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "239",
-    "name": "沙漠蜻蜓",
-    "img": "pokopia_pokemons/No_239.png",
-    "move": "--",
-    "skills": ["重踏", "飛翔"],
-    "habitat": "粉色的草叢",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "240",
-    "name": "青綿鳥",
-    "img": "pokopia_pokemons/No_240.png",
-    "move": "--",
-    "skills": ["亂撒"],
-    "habitat": "粉色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": "棉花"
-}, {
-    "num": "241",
-    "name": "七夕青鳥",
-    "img": "pokopia_pokemons/No_241.png",
-    "move": "--",
-    "skills": ["飛翔", "亂撒"],
-    "habitat": "鳥鳴花園",
-    "note": "--",
-    "scatterItem": "棉花"
-}, {
-    "num": "242",
-    "name": "夜巡靈",
-    "img": "pokopia_pokemons/No_242.png",
-    "move": "--",
-    "skills": ["分類"],
-    "habitat": "粉色的草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "243",
-    "name": "彷徨夜靈",
-    "img": "pokopia_pokemons/No_243.png",
-    "move": "--",
-    "skills": ["分類"],
-    "habitat": "垃圾場的電視",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "244",
-    "name": "黑夜魔靈",
-    "img": "pokopia_pokemons/No_244.png",
-    "move": "--",
-    "skills": ["分類", "交易"],
-    "habitat": "垃圾場的電視",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "245",
-    "name": "鐵啞鈴",
-    "img": "pokopia_pokemons/No_245.png",
-    "move": "--",
-    "skills": ["回收利用"],
-    "habitat": "騎行中休息",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "246",
-    "name": "金屬怪",
-    "img": "pokopia_pokemons/No_246.png",
-    "move": "--",
-    "skills": ["回收利用"],
-    "habitat": "以博士為目標研究中",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "247",
-    "name": "巨金怪",
-    "img": "pokopia_pokemons/No_247.png",
-    "move": "--",
-    "skills": ["回收利用", "碾壓"],
-    "habitat": "絕佳的遊戲環境",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "248",
-    "name": "藤藤蛇",
-    "img": "pokopia_pokemons/No_248.png",
-    "move": "--",
-    "skills": ["栽培", "亂撒"],
-    "habitat": "遊樂園",
-    "note": "--",
-    "scatterItem": "藤蔓繩"
-}, {
-    "num": "249",
-    "name": "青藤蛇",
-    "img": "pokopia_pokemons/No_249.png",
-    "move": "--",
-    "skills": ["栽培", "亂撒"],
-    "habitat": "樹蔭的軟綿綿花田",
-    "note": "--",
-    "scatterItem": "藤蔓繩"
-}, {
-    "num": "250",
-    "name": "君主蛇",
-    "img": "pokopia_pokemons/No_250.png",
-    "move": "--",
-    "skills": ["栽培", "亂撒"],
-    "habitat": "歡迎閱讀",
-    "note": "--",
-    "scatterItem": "藤蔓繩"
-}, {
-    "num": "251",
-    "name": "呱呱泡蛙",
-    "img": "pokopia_pokemons/No_251.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "濕潤的粉色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "252",
-    "name": "呱頭蛙",
-    "img": "pokopia_pokemons/No_252.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "惡作劇開關",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "253",
-    "name": "甲賀忍蛙",
-    "img": "pokopia_pokemons/No_253.png",
-    "move": "--",
-    "skills": ["滋潤", "伐木"],
-    "habitat": "惡作劇開關",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "254",
-    "name": "咚咚鼠",
-    "img": "pokopia_pokemons/No_254.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "輪胎公園",
-    "note": "亮晶晶的空島",
-    "scatterItem": ""
-}, {
-    "num": "255",
-    "name": "嗡蝠",
-    "img": "pokopia_pokemons/No_255.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "律動客廳",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "256",
-    "name": "音波龍",
-    "img": "pokopia_pokemons/No_256.png",
-    "move": "--",
-    "skills": ["找東西", "飛翔"],
-    "habitat": "律動客廳",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "257",
-    "name": "稚山雀",
-    "img": "pokopia_pokemons/No_257.png",
-    "move": "--",
-    "skills": ["伐木"],
-    "habitat": "軟綿綿的花田",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "258",
-    "name": "藍鴉",
-    "img": "pokopia_pokemons/No_258.png",
-    "move": "--",
-    "skills": ["伐木"],
-    "habitat": "高崗的粉色草叢",
-    "note": "--（高處）",
-    "scatterItem": ""
-}, {
-    "num": "259",
-    "name": "鋼鎧鴉",
-    "img": "pokopia_pokemons/No_259.png",
-    "move": "--",
-    "skills": ["伐木", "飛翔"],
-    "habitat": "正在保養人孔蓋",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "260",
-    "name": "多龍梅西亞",
-    "img": "pokopia_pokemons/No_260.png",
-    "move": "--",
-    "skills": ["找東西", "分類"],
-    "habitat": "樹蔭的粉色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "261",
-    "name": "多龍奇",
-    "img": "pokopia_pokemons/No_261.png",
-    "move": "--",
-    "skills": ["找東西", "分類"],
-    "habitat": "辦公室倉庫",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "262",
-    "name": "多龍巴魯托",
-    "img": "pokopia_pokemons/No_262.png",
-    "move": "--",
-    "skills": ["分類", "交易"],
-    "habitat": "辦公室倉庫",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "263",
-    "name": "新葉喵",
-    "img": "pokopia_pokemons/No_263.png",
-    "move": "--",
-    "skills": ["栽培"],
-    "habitat": "樹蔭的粉色草叢",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "264",
-    "name": "蒂蕾喵",
-    "img": "pokopia_pokemons/No_264.png",
-    "move": "--",
-    "skills": ["栽培"],
-    "habitat": "跟搭檔一起調查",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "265",
-    "name": "魔幻假面喵",
-    "img": "pokopia_pokemons/No_265.png",
-    "move": "--",
-    "skills": ["栽培", "帶動氣氛"],
-    "habitat": "咚咚驚喜箱",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "266",
-    "name": "電海燕",
-    "img": "pokopia_pokemons/No_266.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "高崗的粉色草叢",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "267",
-    "name": "大電海燕",
-    "img": "pokopia_pokemons/No_267.png",
-    "move": "--",
-    "skills": ["飛翔", "發電"],
-    "habitat": "高崗的粉色草叢",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "268",
-    "name": "小鍛匠",
-    "img": "pokopia_pokemons/No_268.png",
-    "move": "--",
-    "skills": ["建造"],
-    "habitat": "載上大行李",
-    "note": "任何區域・普通",
-    "scatterItem": ""
-}, {
-    "num": "269",
-    "name": "巧鍛匠",
-    "img": "pokopia_pokemons/No_269.png",
-    "move": "--",
-    "skills": ["建造"],
-    "habitat": "正在保養人孔蓋",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "270",
-    "name": "巨鍛匠",
-    "img": "pokopia_pokemons/No_270.png",
-    "move": "--",
-    "skills": ["職人"],
-    "habitat": "大型垃圾場",
-    "note": "亮晶晶的空島，一座廢棄物高塔上可遇見。",
-    "scatterItem": ""
-}, {
-    "num": "271",
-    "name": "化石翼龍",
-    "img": "pokopia_pokemons/No_271.png",
-    "move": "--",
-    "skills": ["飛翔"],
-    "habitat": "飛翼化石展示台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "272",
-    "name": "頭蓋龍",
-    "img": "pokopia_pokemons/No_272.png",
-    "move": "--",
-    "skills": ["碾壓"],
-    "habitat": "頭蓋化石展示台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "273",
-    "name": "戰槌龍",
-    "img": "pokopia_pokemons/No_273.png",
-    "move": "--",
-    "skills": ["碾壓", "亂撒"],
-    "habitat": "頭槌化石展示台",
-    "note": "--",
-    "scatterItem": "石頭"
-}, {
-    "num": "274",
-    "name": "盾甲龍",
-    "img": "pokopia_pokemons/No_274.png",
-    "move": "--",
-    "skills": ["碾壓"],
-    "habitat": "盾甲化石展示台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "275",
-    "name": "護城龍",
-    "img": "pokopia_pokemons/No_275.png",
-    "move": "--",
-    "skills": ["碾壓", "亂撒"],
-    "habitat": "護盾化石展示台",
-    "note": "任何區域・普通",
-    "scatterItem": "石頭"
-}, {
-    "num": "276",
-    "name": "寶寶暴龍",
-    "img": "pokopia_pokemons/No_276.png",
-    "move": "--",
-    "skills": ["碾壓"],
-    "habitat": "顎之化石展示台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "277",
-    "name": "怪顎龍",
-    "img": "pokopia_pokemons/No_277.png",
-    "move": "--",
-    "skills": ["碾壓", "亂撒"],
-    "habitat": "暴君化石展示台",
-    "note": "任何區域・普通",
-    "scatterItem": "石頭"
-}, {
-    "num": "278",
-    "name": "冰雪龍",
-    "img": "pokopia_pokemons/No_278.png",
-    "move": "--",
-    "skills": ["碾壓"],
-    "habitat": "鰭之化石展示台",
-    "note": "--",
-    "scatterItem": ""
-}, {
-    "num": "279",
-    "name": "冰雪巨龍",
-    "img": "pokopia_pokemons/No_279.png",
-    "move": "--",
-    "skills": ["碾壓", "亂撒"],
-    "habitat": "凍原化石展示台",
-    "note": "--",
-    "scatterItem": "石頭"
-}, {
-    "num": "280",
-    "name": "伊布",
-    "img": "pokopia_pokemons/No_280.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "漂亮的花田",
-    "note": "空空鎮可遇見。",
-    "scatterItem": ""
-}, {
-    "num": "281",
-    "name": "水伊布",
-    "img": "pokopia_pokemons/No_281.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "沁爽清藍",
-    "note": "空空鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "282",
-    "name": "雷伊布",
-    "img": "pokopia_pokemons/No_282.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "麻麻薯餅",
-    "note": "空空鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "283",
-    "name": "火伊布",
-    "img": "pokopia_pokemons/No_283.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "辣到噴火",
-    "note": "空空鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "284",
-    "name": "太陽伊布",
-    "img": "pokopia_pokemons/No_284.png",
-    "move": "--",
-    "skills": ["分類"],
-    "habitat": "優雅的午後",
-    "note": "空空鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "285",
-    "name": "月亮伊布",
-    "img": "pokopia_pokemons/No_285.png",
-    "move": "--",
-    "skills": ["找東西"],
-    "habitat": "黑色的滋味",
-    "note": "空空鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "286",
-    "name": "葉伊布",
-    "img": "pokopia_pokemons/No_286.png",
-    "move": "--",
-    "skills": ["栽培"],
-    "habitat": "綠色三明治",
-    "note": "空空鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "287",
-    "name": "冰伊布",
-    "img": "pokopia_pokemons/No_287.png",
-    "move": "--",
-    "skills": ["交易"],
-    "habitat": "沁涼刨冰",
-    "note": "空空鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "288",
-    "name": "仙子伊布",
-    "img": "pokopia_pokemons/No_288.png",
-    "move": "--",
-    "skills": ["帶動氣氛"],
-    "habitat": "可愛的蛋糕",
-    "note": "空空鎮・普通",
-    "scatterItem": ""
-}, {
-    "num": "289",
-    "name": "蓋歐卡",
-    "img": "pokopia_pokemons/No_289.png",
-    "move": "--",
-    "skills": ["？？？"],
-    "habitat": "--",
-    "note": "隨主線推進解鎖圖鑑 / 在乾燥荒野之鎮的故事中登錄圖鑑",
-    "scatterItem": ""
-}, {
-    "num": "290",
-    "name": "雷公",
-    "img": "pokopia_pokemons/No_290.png",
-    "move": "--",
-    "skills": ["發電"],
-    "habitat": "夢島",
-    "note": "隨主線推進解鎖圖鑑後，使用「皮卡丘玩偶」前往夢島時隨機出現。",
-    "scatterItem": ""
-}, {
-    "num": "291",
-    "name": "炎帝",
-    "img": "pokopia_pokemons/No_291.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "夢島",
-    "note": "隨主線推進解鎖圖鑑後，使用「風速狗玩偶」前往夢島時隨機出現。",
-    "scatterItem": ""
-}, {
-    "num": "292",
-    "name": "水君",
-    "img": "pokopia_pokemons/No_292.png",
-    "move": "--",
-    "skills": ["滋潤"],
-    "habitat": "夢島",
-    "note": "隨主線推進解鎖圖鑑後，使用「伊布玩偶」前往夢島時隨機出現。",
-    "scatterItem": ""
-}, {
-    "num": "293",
-    "name": "波爾凱尼恩",
-    "img": "pokopia_pokemons/No_293.png",
-    "move": "--",
-    "skills": ["點火"],
-    "habitat": "--",
-    "note": "完成「凸隆隆山地」主線後，透過派對鍋開始派對並向火山發射煙火。",
-    "scatterItem": ""
-}, {
-    "num": "294",
-    "name": "急凍鳥",
-    "img": "pokopia_pokemons/No_294.png",
-    "move": "--",
-    "skills": ["飛翔"],
-    "habitat": "神殿",
-    "note": "解鎖「空空島」後於地圖噴泉處尋找神殿套組完成即可遇見。",
-    "scatterItem": ""
-}, {
-    "num": "295",
-    "name": "閃電鳥",
-    "img": "pokopia_pokemons/No_295.png",
-    "move": "--",
-    "skills": ["飛翔"],
-    "habitat": "神殿",
-    "note": "解鎖「空空島」後於地圖噴泉處尋找神殿套組完成即可遇見。",
-    "scatterItem": ""
-}, {
-    "num": "296",
-    "name": "火焰鳥",
-    "img": "pokopia_pokemons/No_296.png",
-    "move": "--",
-    "skills": ["飛翔"],
-    "habitat": "神殿",
-    "note": "解鎖「空空島」後於地圖噴泉處尋找神殿套組完成即可遇見。",
-    "scatterItem": ""
-}, {
-    "num": "297",
-    "name": "洛奇亞",
-    "img": "pokopia_pokemons/No_297.png",
-    "move": "--",
-    "skills": ["？？？"],
-    "habitat": "--",
-    "note": "湊齊三神鳥後解鎖並製作「透明鈴鐺」，於鳳王現身時敲響即可遇見。",
-    "scatterItem": ""
-}, {
-    "num": "298",
-    "name": "鳳王",
-    "img": "pokopia_pokemons/No_298.png",
-    "move": "--",
-    "skills": ["？？？"],
-    "habitat": "--",
-    "note": "湊齊三神獸後解鎖並製作「透明鈴鐺」，於鳳王現身時敲響即可遇見。",
-    "scatterItem": ""
-}, {
-    "num": "299",
-    "name": "超夢",
-    "img": "pokopia_pokemons/No_299.png",
-    "move": "--",
-    "skills": ["瞬間移動"],
-    "habitat": "夢島",
-    "note": "隨主線推進解鎖圖鑑後，使用「快龍玩偶」前往夢島時隨機出現。",
-    "scatterItem": ""
-}, {
-    "num": "300",
-    "name": "夢幻",
-    "img": "pokopia_pokemons/No_300.png",
-    "move": "--",
-    "skills": ["瞬間移動"],
-    "habitat": "神秘遺跡",
-    "note": "收集27種「謎之石板」，置入乾巴巴的荒野城鎮的未知圖騰牆面完成拼圖。",
-    "scatterItem": ""
-}];
+const POKEMONS = [
+    { "num": "001", "name": "妙蛙種子", "img": "pokopia_pokemons/No_001.png", "move": "樹葉", "skills": ["栽培"], "habitat": "綠色的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "柔軟", "可愛", "能感受水的", "大家一起用的"] },
+    { "num": "002", "name": "妙蛙草", "img": "pokopia_pokemons/No_002.png", "move": "--", "skills": ["栽培"], "habitat": "整片的花海", "note": "任何區域・稀有", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "柔軟", "可愛", "花朵盛開", "五彩繽紛"] },
+    { "num": "003", "name": "妙蛙花", "img": "pokopia_pokemons/No_003.png", "move": "--", "skills": ["栽培", "亂撒"], "habitat": "整片的花海", "note": "乾燥荒野之鎮・非常稀有", "scatterItem": "葉子", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "柔軟", "可愛", "花朵盛開", "華麗"] },
+    { "num": "004", "name": "小火龍", "img": "pokopia_pokemons/No_004.png", "move": "--", "skills": ["點火"], "habitat": "綠色的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "木製", "堅硬的", "訓練", "大家一起用的"] },
+    { "num": "005", "name": "火恐龍", "img": "pokopia_pokemons/No_005.png", "move": "--", "skills": ["點火"], "habitat": "露營組合", "note": "乾燥荒野之鎮・稀有", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "木製", "堅硬的", "訓練", "交通工具"] },
+    { "num": "006", "name": "噴火龍", "img": "pokopia_pokemons/No_006.png", "move": "--", "skills": ["點火", "飛翔"], "habitat": "綠色的草叢", "note": "任何區域・非常稀有（高處）", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "能感受風的", "木製", "訓練", "華麗"] },
+    { "num": "007", "name": "傑尼龜", "img": "pokopia_pokemons/No_007.png", "move": "水槍", "skills": ["滋潤"], "habitat": "綠色的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "能治癒傷口的", "可愛", "大家一起用的"] },
+    { "num": "008", "name": "卡咪龜", "img": "pokopia_pokemons/No_008.png", "move": "--", "skills": ["滋潤"], "habitat": "濕潤的草地", "note": "任何區域・稀有", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "能治癒傷口的", "訓練", "堅硬的"] },
+    { "num": "009", "name": "水箭龜", "img": "pokopia_pokemons/No_009.png", "move": "--", "skills": ["滋潤", "交易"], "habitat": "濕潤的草地", "note": "任何區域・非常稀有", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "能治癒傷口的", "訓練", "華麗"] },
+    { "num": "010", "name": "波波", "img": "pokopia_pokemons/No_010.png", "move": "--", "skills": ["找東西", "飛翔"], "habitat": "高崗的草叢", "note": "任何區域・普通（高處）", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "能感受風的", "觀賞樂趣", "能感受大自然的", "遊樂場"] },
+    { "num": "011", "name": "比比鳥", "img": "pokopia_pokemons/No_011.png", "move": "--", "skills": ["找東西", "飛翔"], "habitat": "高崗的草叢", "note": "任何區域・稀有（高處）", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "能感受風的", "觀賞樂趣", "能感受大自然的", "像食物"] },
+    { "num": "012", "name": "大比鳥", "img": "pokopia_pokemons/No_012.png", "move": "--", "skills": ["伐木", "飛翔"], "habitat": "豪華小雞飼料", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "能感受風的", "木製", "能感受大自然的", "華麗"] },
+    { "num": "013", "name": "走路草", "img": "pokopia_pokemons/No_013.png", "move": "--", "skills": ["栽培"], "habitat": "綠色的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "能感受土的", "柔軟", "花朵盛開", "能感受水的"] },
+    { "num": "014", "name": "臭臭花", "img": "pokopia_pokemons/No_014.png", "move": "--", "skills": ["栽培"], "habitat": "南國氣氛", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "能感受土的", "柔軟", "花朵盛開", "垃圾"] },
+    { "num": "015", "name": "霸王花", "img": "pokopia_pokemons/No_015.png", "move": "--", "skills": ["栽培", "亂撒"], "habitat": "吉利蛋休息處", "note": "--", "scatterItem": "葉子", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "能感受土的", "柔軟", "花朵盛開", "五彩繽紛"] },
+    { "num": "016", "name": "美麗花", "img": "pokopia_pokemons/No_016.png", "move": "--", "skills": ["栽培", "帶動氣氛"], "habitat": "吉利蛋休息處", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "花朵盛開", "遊樂場", "可愛", "聲音"] },
+    { "num": "017", "name": "派拉斯", "img": "pokopia_pokemons/No_017.png", "move": "--", "skills": ["找東西"], "habitat": "高崗的花海", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "觀賞樂趣", "能感受土的", "像食物"] },
+    { "num": "018", "name": "派拉斯特", "img": "pokopia_pokemons/No_018.png", "move": "--", "skills": ["找東西"], "habitat": "高崗的花海", "note": "任何區域・稀有", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "觀賞樂趣", "能感受土的", "不可思議"] },
+    { "num": "019", "name": "毛球", "img": "pokopia_pokemons/No_019.png", "move": "--", "skills": ["找東西"], "habitat": "光照的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "木製", "觀賞樂趣", "看起來很難", "有文字"] },
+    { "num": "020", "name": "摩魯蛾", "img": "pokopia_pokemons/No_020.png", "move": "--", "skills": ["找東西"], "habitat": "光照的草叢", "note": "任何區域・稀有", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "木製", "觀賞樂趣", "能感受風的", "花朵盛開"] },
+    { "num": "021", "name": "喇叭芽", "img": "pokopia_pokemons/No_021.png", "move": "--", "skills": ["栽培", "亂撒"], "habitat": "樹蔭的草叢", "note": "任何區域・普通", "scatterItem": "藤蔓繩", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "能感受土的", "能感受水的", "花朵盛開"] },
+    { "num": "022", "name": "口呆花", "img": "pokopia_pokemons/No_022.png", "move": "--", "skills": ["栽培", "亂撒"], "habitat": "華麗的桌子", "note": "任何區域・稀有", "scatterItem": "藤蔓繩", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "能感受土的", "五彩繽紛", "花朵盛開"] },
+    { "num": "023", "name": "大食花", "img": "pokopia_pokemons/No_023.png", "move": "--", "skills": ["栽培", "伐木"], "habitat": "光與香氣的勾引", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "能感受土的", "五彩繽紛", "花朵盛開"] },
+    { "num": "024", "name": "呆呆獸", "img": "pokopia_pokemons/No_024.png", "move": "--", "skills": ["滋潤", "哈欠"], "habitat": "海浪邊的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "不可思議", "柔軟", "能治癒傷口的"] },
+    { "num": "025", "name": "呆殼獸", "img": "pokopia_pokemons/No_025.png", "move": "--", "skills": ["滋潤", "交易"], "habitat": "海浪邊的草叢", "note": "任何區域・非常稀有", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "不可思議", "大家一起用的", "能治癒傷口的"] },
+    { "num": "026", "name": "呆呆王", "img": "pokopia_pokemons/No_026.png", "move": "--", "skills": ["滋潤", "瞬間移動"], "habitat": "海浪邊的草叢", "note": "任何區域・非常稀有", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "不可思議", "大家一起用的", "能治癒傷口的"] },
+    { "num": "027", "name": "小磁怪", "img": "pokopia_pokemons/No_027.png", "move": "電磁漂浮", "skills": ["發電"], "habitat": "工廠倉庫", "note": "乾巴巴的荒野城鎮，通關主線後可遇見。", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "金屬的", "閃閃發光", "堅硬的", "大家一起用的"] },
+    { "num": "028", "name": "三合一磁怪", "img": "pokopia_pokemons/No_028.png", "move": "--", "skills": ["發電"], "habitat": "垃圾桶擺好擺滿", "note": "任何區域・稀有", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "金屬的", "閃閃發光", "堅硬的", "大家一起用的"] },
+    { "num": "029", "name": "自爆磁怪", "img": "pokopia_pokemons/No_029.png", "move": "--", "skills": ["回收利用", "發電"], "habitat": "迷你遊戲城", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "金屬的", "華麗", "群聚的", "堅硬的"] },
+    { "num": "030", "name": "大岩蛇", "img": "pokopia_pokemons/No_030.png", "move": "--", "skills": ["碾壓", "重踏"], "habitat": "乾爽草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "能感受土的", "方形", "細長", "訓練"] },
+    { "num": "031", "name": "大鋼蛇", "img": "pokopia_pokemons/No_031.png", "move": "--", "skills": ["碾壓", "重踏"], "habitat": "鏘啷鏘啷鋼構工程", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["乾燥"], "favorite_things": ["金屬的", "能感受土的", "石造", "細長", "堅硬的"] },
+    { "num": "032", "name": "卡拉卡拉", "img": "pokopia_pokemons/No_032.png", "move": "--", "skills": ["建造"], "habitat": "花朵纏繞的墓地", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["乾燥"], "favorite_things": ["能感受土的", "建設", "訓練", "細長", "大家一起用的"] },
+    { "num": "033", "name": "嘎啦嘎啦", "img": "pokopia_pokemons/No_033.png", "move": "--", "skills": ["建造"], "habitat": "花朵纏繞的墓地", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["乾燥"], "favorite_things": ["能感受土的", "建設", "訓練", "細長", "華麗"] },
+    { "num": "034", "name": "無畏小子", "img": "pokopia_pokemons/No_034.png", "move": "--", "skills": ["交易"], "habitat": "修行瀑布", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "大家一起用的", "布製", "石造", "圓形"] },
+    { "num": "035", "name": "飛腿郎", "img": "pokopia_pokemons/No_035.png", "move": "--", "skills": ["交易"], "habitat": "緊急救護所", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "大家一起用的", "布製", "石造", "圓形"] },
+    { "num": "036", "name": "快拳郎", "img": "pokopia_pokemons/No_036.png", "move": "碎岩", "skills": ["交易"], "habitat": "健身區用餐區", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "大家一起用的", "布製", "石造", "圓形"] },
+    { "num": "037", "name": "戰舞郎", "img": "pokopia_pokemons/No_037.png", "move": "--", "skills": ["交易"], "habitat": "健身區救護站", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "大家一起用的", "布製", "石造", "圓形"] },
+    { "num": "038", "name": "瓦斯彈", "img": "pokopia_pokemons/No_038.png", "move": "--", "skills": ["回收利用"], "habitat": "垃圾集中站", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["垃圾", "群聚的", "看起來很難", "柔軟", "搖晃"] },
+    { "num": "039", "name": "雙彈瓦斯", "img": "pokopia_pokemons/No_039.png", "move": "--", "skills": ["回收利用"], "habitat": "懷舊古董", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["垃圾", "群聚的", "看起來很難", "柔軟", "搖晃"] },
+    { "num": "040", "name": "蔓藤怪", "img": "pokopia_pokemons/No_040.png", "move": "--", "skills": ["栽培", "亂撒"], "habitat": "滿滿是寶可夢球", "note": "--", "scatterItem": "藤蔓繩", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "能感受水的", "群聚的", "花朵盛開", "細長"] },
+    { "num": "041", "name": "巨蔓藤（博士）", "img": "pokopia_pokemons/No_041.png", "move": "--", "skills": ["鑑定"], "habitat": "博士的寶物", "note": "--", "scatterItem": "藤蔓繩", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "看起來很難", "有文字", "不可思議", "大家一起用的"] },
+    { "num": "042", "name": "飛天螳螂", "img": "pokopia_pokemons/No_042.png", "move": "居合斬", "skills": ["伐木"], "habitat": "樹蔭的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "木製", "訓練", "能感受風的", "尖銳"] },
+    { "num": "043", "name": "巨鉗螳螂", "img": "pokopia_pokemons/No_043.png", "move": "--", "skills": ["伐木"], "habitat": "樹蔭的草叢", "note": "空空鎮・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "金屬的", "木製", "堅硬的", "訓練"] },
+    { "num": "044", "name": "凱羅斯", "img": "pokopia_pokemons/No_044.png", "move": "--", "skills": ["伐木", "建造"], "habitat": "樹蔭的草叢", "note": "任何區域・稀有", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "木製", "花朵盛開", "尖銳", "訓練"] },
+    { "num": "045", "name": "鯉魚王", "img": "pokopia_pokemons/No_045.png", "move": "躍起", "skills": ["--"], "habitat": "海釣", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "大家一起用的", "交通工具", "搖晃"] },
+    { "num": "046", "name": "暴鯉龍", "img": "pokopia_pokemons/No_046.png", "move": "攀瀑", "skills": ["滋潤"], "habitat": "光照的瀑布", "note": "亮晶晶的空島，瀑布邊可遇見", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "能感受風的", "整潔", "細長"] },
+    { "num": "047", "name": "百變怪", "img": "pokopia_pokemons/No_047.png", "move": "變身", "skills": ["--"], "habitat": "--", "note": "--", "scatterItem": "", "flavor": "--", "favorite_food": [], "favorite_environment": ["--"], "favorite_things": [] },
+    { "num": "048", "name": "咕咕", "img": "pokopia_pokemons/No_048.png", "move": "--", "skills": ["飛翔", "交易"], "habitat": "高崗的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["柔軟", "能感受風的", "布製", "搖晃", "觀賞樂趣"] },
+    { "num": "049", "name": "貓頭夜鷹", "img": "pokopia_pokemons/No_049.png", "move": "--", "skills": ["飛翔", "交易"], "habitat": "柔光伴好眠", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["柔軟", "能感受風的", "有文字", "容器", "觀賞樂趣"] },
+    { "num": "050", "name": "赫拉克羅斯", "img": "pokopia_pokemons/No_050.png", "move": "--", "skills": ["伐木", "建造"], "habitat": "樹蔭的草叢", "note": "任何區域・稀有", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "木製", "花朵盛開", "像食物", "訓練"] },
+    { "num": "051", "name": "電螢蟲", "img": "pokopia_pokemons/No_051.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "濕潤的花田", "note": "任何區域・稀有", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受大自然的", "木製", "閃閃發光", "可愛", "大家一起用的"] },
+    { "num": "052", "name": "甜甜螢", "img": "pokopia_pokemons/No_052.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "濕潤的花田", "note": "任何區域・稀有", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受大自然的", "木製", "閃閃發光", "可愛", "大家一起用的"] },
+    { "num": "053", "name": "溶食獸", "img": "pokopia_pokemons/No_053.png", "move": "--", "skills": ["收納"], "habitat": "餓肚肚用餐區", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["可愛", "像食物", "圓形", "容器", "五彩繽紛"] },
+    { "num": "054", "name": "吞食獸", "img": "pokopia_pokemons/No_054.png", "move": "--", "skills": ["收納"], "habitat": "充滿期待的餐桌", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["垃圾", "像食物", "圓形", "容器", "五彩繽紛"] },
+    { "num": "055", "name": "刺球仙人掌", "img": "pokopia_pokemons/No_055.png", "move": "--", "skills": ["栽培"], "habitat": "大晴天地點", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["乾燥"], "favorite_things": ["能感受大自然的", "花朵盛開", "可愛", "圓形", "尖銳"] },
+    { "num": "056", "name": "夢歌仙人掌", "img": "pokopia_pokemons/No_056.png", "move": "--", "skills": ["栽培", "亂撒"], "habitat": "樹蔭的花田", "note": "任何區域・稀有", "scatterItem": "結實的樹枝", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["乾燥"], "favorite_things": ["能感受大自然的", "能感受風的", "華麗", "閃閃發光", "尖銳"] },
+    { "num": "057", "name": "三蜜蜂", "img": "pokopia_pokemons/No_057.png", "move": "--", "skills": ["亂撒"], "habitat": "漂亮的花田", "note": "任何區域・普通", "scatterItem": "甜甜蜜", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "能感受風的", "木製", "群聚的", "大家一起用的"] },
+    { "num": "058", "name": "蜂女王", "img": "pokopia_pokemons/No_058.png", "move": "--", "skills": ["找東西", "採蜜"], "habitat": "整片的花海", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "能感受風的", "木製", "群聚的", "看起來很難"] },
+    { "num": "059", "name": "無殼海兔", "img": "pokopia_pokemons/No_059.png", "move": "--", "skills": ["滋潤"], "habitat": "指路牌", "note": "任何區域・稀有", "scatterItem": "", "flavor": "酸/澀", "favorite_food": ["番茄", "利木果", "小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "整潔", "五彩繽紛", "容器"] },
+    { "num": "060", "name": "海兔獸", "img": "pokopia_pokemons/No_060.png", "move": "--", "skills": ["滋潤", "交易"], "habitat": "海釣", "note": "--", "scatterItem": "", "flavor": "酸/澀", "favorite_food": ["番茄", "利木果", "小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受土的", "能感受海的", "整潔", "容器"] },
+    { "num": "061", "name": "飄飄球", "img": "pokopia_pokemons/No_061.png", "move": "--", "skills": ["夢島"], "habitat": "乘上暖風", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["溫暖"], "favorite_things": ["詭異", "不可思議", "能感受風的", "可愛", "圓形"] },
+    { "num": "062", "name": "隨風球", "img": "pokopia_pokemons/No_062.png", "move": "--", "skills": ["飛翔", "分類"], "habitat": "被布偶圍滿", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["溫暖"], "favorite_things": ["詭異", "不可思議", "能感受風的", "搖晃", "旋轉"] },
+    { "num": "063", "name": "螺釘地鼠", "img": "pokopia_pokemons/No_063.png", "move": "耕地", "skills": ["找東西"], "habitat": "新鮮蔬菜田", "note": "任何區域・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受土的", "石造", "能感受大自然的", "觀賞樂趣", "尖銳"] },
+    { "num": "064", "name": "龍頭地鼠", "img": "pokopia_pokemons/No_064.png", "move": "--", "skills": ["伐木", "找東西"], "habitat": "新鮮蔬菜田", "note": "任何區域・稀有", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受土的", "金屬的", "訓練", "觀賞樂趣", "尖銳"] },
+    { "num": "065", "name": "搬運小匠", "img": "pokopia_pokemons/No_065.png", "move": "--", "skills": ["建造"], "habitat": "岩影的草地", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "建設", "木製", "細長", "方形"] },
+    { "num": "066", "name": "鐵骨土人", "img": "pokopia_pokemons/No_066.png", "move": "--", "skills": ["建造"], "habitat": "岩影的草地", "note": "任何區域・稀有", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "建設", "金屬的", "細長", "大家一起用的"] },
+    { "num": "067", "name": "修建老匠", "img": "pokopia_pokemons/No_067.png", "move": "--", "skills": ["建造", "碾壓"], "habitat": "施工地的發電站", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "建設", "石造", "細長", "大家一起用的"] },
+    { "num": "068", "name": "燭光靈", "img": "pokopia_pokemons/No_068.png", "move": "--", "skills": ["點火"], "habitat": "墓前的供品", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["溫暖"], "favorite_things": ["詭異", "不可思議", "能感受火的", "搖晃", "方形"] },
+    { "num": "069", "name": "燈火幽靈", "img": "pokopia_pokemons/No_069.png", "move": "--", "skills": ["點火"], "habitat": "墓前的供品", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["溫暖"], "favorite_things": ["詭異", "不可思議", "能感受火的", "搖晃", "容器"] },
+    { "num": "070", "name": "水晶燈火靈", "img": "pokopia_pokemons/No_070.png", "move": "--", "skills": ["點火"], "habitat": "詭異墓前的供品", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["詭異", "不可思議", "能感受火的", "搖晃", "觀賞樂趣"] },
+    { "num": "071", "name": "牙牙", "img": "pokopia_pokemons/No_071.png", "move": "--", "skills": ["伐木"], "habitat": "圓木的溫馨感", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受火的", "華麗", "能感受土的", "堅硬的", "尖銳"] },
+    { "num": "072", "name": "斧牙龍", "img": "pokopia_pokemons/No_072.png", "move": "--", "skills": ["伐木"], "habitat": "樵夫的工作區", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受火的", "華麗", "能感受土的", "訓練", "尖銳"] },
+    { "num": "073", "name": "雙斧戰龍", "img": "pokopia_pokemons/No_073.png", "move": "--", "skills": ["伐木", "亂撒"], "habitat": "圓木的溫馨感", "note": "--", "scatterItem": "小圓木", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受火的", "華麗", "能感受土的", "訓練", "尖銳"] },
+    { "num": "074", "name": "黏黏寶", "img": "pokopia_pokemons/No_074.png", "move": "--", "skills": ["滋潤"], "habitat": "樹蔭的花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "華麗", "能感受大自然的", "整潔", "能治癒傷口的"] },
+    { "num": "075", "name": "黏美兒", "img": "pokopia_pokemons/No_075.png", "move": "--", "skills": ["滋潤"], "habitat": "濕潤的草地", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "華麗", "柔軟", "整潔", "能治癒傷口的"] },
+    { "num": "076", "name": "黏美龍", "img": "pokopia_pokemons/No_076.png", "move": "--", "skills": ["滋潤", "交易"], "habitat": "樹果大集合", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "華麗", "訓練", "整潔", "能治癒傷口的"] },
+    { "num": "077", "name": "古月鳥", "img": "pokopia_pokemons/No_077.png", "move": "--", "skills": ["滋潤", "飛翔"], "habitat": "濕潤的草地", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受風的", "能感受水的", "能感受海的", "細長", "像食物"] },
+    { "num": "078", "name": "皮丘", "img": "pokopia_pokemons/No_078.png", "move": "--", "skills": ["發電"], "habitat": "野餐風餐桌", "note": "乾巴巴的荒野城鎮・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "玻璃", "可愛", "花朵盛開", "布製"] },
+    { "num": "079", "name": "皮卡丘（淺色）", "img": "pokopia_pokemons/No_079.png", "move": "--", "skills": ["發光"], "habitat": "野餐風餐桌", "note": "暗沉沉的海邊城鎮", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "玻璃", "可愛", "能治癒傷口的", "有文字"] },
+    { "num": "079", "name": "皮卡丘（一般）", "img": "pokopia_pokemons/No_079_2.png", "move": "--", "skills": ["發電"], "habitat": "野餐風餐桌", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "玻璃", "大家一起用的", "圓形", "交通工具"] },
+    { "num": "080", "name": "雷丘", "img": "pokopia_pokemons/No_080.png", "move": "--", "skills": ["發電", "帶動氣氛"], "habitat": "大自然的市場", "note": "任何區域・普通", "scatterItem": "", "flavor": "--", "favorite_food": [], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "玻璃", "大家一起用的", "圓形", "遊樂場"] },
+    { "num": "081", "name": "超音蝠", "img": "pokopia_pokemons/No_081.png", "move": "--", "skills": ["找東西"], "habitat": "樹蔭的黃色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "能感受風的", "木製", "聲音", "看起來很難"] },
+    { "num": "082", "name": "大嘴蝠", "img": "pokopia_pokemons/No_082.png", "move": "--", "skills": ["找東西"], "habitat": "樹蔭的黃色草叢", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "能感受風的", "木製", "聲音", "看起來很難"] },
+    { "num": "083", "name": "叉字蝠", "img": "pokopia_pokemons/No_083.png", "move": "--", "skills": ["伐木", "找東西"], "habitat": "高崗的黃色草叢", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "能感受風的", "木製", "垃圾", "觀賞樂趣"] },
+    { "num": "084", "name": "喵喵", "img": "pokopia_pokemons/No_084.png", "move": "--", "skills": ["交易"], "habitat": "休息好地方", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["涼爽"], "favorite_things": ["容器", "大家一起用的", "閃閃發光", "玻璃", "華麗"] },
+    { "num": "085", "name": "貓老大", "img": "pokopia_pokemons/No_085.png", "move": "--", "skills": ["找東西", "交易"], "habitat": "邪惡組織的秘密基地", "note": "任何區域・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["涼爽"], "favorite_things": ["容器", "大家一起用的", "閃閃發光", "觀賞樂趣", "華麗"] },
+    { "num": "086", "name": "可達鴨", "img": "pokopia_pokemons/No_086.png", "move": "--", "skills": ["找東西"], "habitat": "溫泉沖洗區", "note": "任何區域・普通（溫泉）", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "不可思議", "看起來很難", "能治癒傷口的"] },
+    { "num": "087", "name": "哥達鴨", "img": "pokopia_pokemons/No_087.png", "move": "--", "skills": ["找東西"], "habitat": "溫泉沖洗區", "note": "--（溫泉）", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "不可思議", "看起來很難", "尖銳"] },
+    { "num": "088", "name": "卡蒂狗", "img": "pokopia_pokemons/No_088.png", "move": "--", "skills": ["點火", "找東西"], "habitat": "來收拾吧", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "能感受風的", "有文字", "花朵盛開"] },
+    { "num": "089", "name": "風速狗", "img": "pokopia_pokemons/No_089.png", "move": "--", "skills": ["點火", "找東西"], "habitat": "熔岩釣", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "能感受風的", "觀賞樂趣", "象徵"] },
+    { "num": "090", "name": "大蔥鴨", "img": "pokopia_pokemons/No_090.png", "move": "--", "skills": ["伐木", "建造"], "habitat": "打包好囉", "note": "任何區域", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["柔軟", "能感受風的", "木製", "細長", "訓練"] },
+    { "num": "091", "name": "臭泥", "img": "pokopia_pokemons/No_091.png", "move": "--", "skills": ["亂撒"], "habitat": "沼澤釣", "note": "--", "scatterItem": "不可燃垃圾", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["垃圾", "詭異", "群聚的", "閃閃發光", "容器"] },
+    { "num": "092", "name": "臭臭泥", "img": "pokopia_pokemons/No_092.png", "move": "--", "skills": ["亂撒"], "habitat": "沼澤釣", "note": "--", "scatterItem": "不可燃垃圾", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["垃圾", "詭異", "群聚的", "閃閃發光", "容器"] },
+    { "num": "093", "name": "鬼斯", "img": "pokopia_pokemons/No_093.png", "move": "--", "skills": ["分類", "交易"], "habitat": "詭異書房", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "不可思議", "垃圾", "容器", "大家一起用的"] },
+    { "num": "094", "name": "鬼斯通", "img": "pokopia_pokemons/No_094.png", "move": "--", "skills": ["分類", "交易"], "habitat": "小心機關", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "不可思議", "垃圾", "搖晃", "大家一起用的"] },
+    { "num": "095", "name": "耿鬼", "img": "pokopia_pokemons/No_095.png", "move": "--", "skills": ["分類", "交易"], "habitat": "小心機關", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "不可思議", "垃圾", "交通工具", "大家一起用的"] },
+    { "num": "096", "name": "霹靂電球", "img": "pokopia_pokemons/No_096.png", "move": "--", "skills": ["發電", "爆炸"], "habitat": "公園的長椅", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "閃閃發光", "圓形", "五彩繽紛", "旋轉"] },
+    { "num": "097", "name": "頑皮雷彈", "img": "pokopia_pokemons/No_097.png", "move": "--", "skills": ["發電", "爆炸"], "habitat": "公園的長椅", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "閃閃發光", "圓形", "遊樂場", "旋轉"] },
+    { "num": "098", "name": "蛋蛋", "img": "pokopia_pokemons/No_098.png", "move": "--", "skills": ["栽培", "瞬間移動"], "habitat": "南國氣氛", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "不可思議", "群聚的", "觀賞樂趣", "大家一起用的"] },
+    { "num": "099", "name": "椰蛋樹", "img": "pokopia_pokemons/No_099.png", "move": "--", "skills": ["栽培", "瞬間移動"], "habitat": "沙灘的樹蔭", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "不可思議", "群聚的", "觀賞樂趣", "木製"] },
+    { "num": "100", "name": "小福蛋", "img": "pokopia_pokemons/No_100.png", "move": "--", "skills": ["交易"], "habitat": "鬧鐘床鋪空間", "note": "任何區域", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "布製", "能治癒傷口的", "圓形", "容器"] },
+    { "num": "101", "name": "吉利蛋", "img": "pokopia_pokemons/No_101.png", "move": "--", "skills": ["交易"], "habitat": "痊癒前好好休息", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "布製", "能治癒傷口的", "圓形", "大家一起用的"] },
+    { "num": "102", "name": "幸福蛋", "img": "pokopia_pokemons/No_102.png", "move": "--", "skills": ["亂撒", "交易"], "habitat": "超可愛空間", "note": "--", "scatterItem": "石頭", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "布製", "能治癒傷口的", "圓形", "大家一起用的"] },
+    { "num": "103", "name": "電擊怪", "img": "pokopia_pokemons/No_103.png", "move": "--", "skills": ["發電"], "habitat": "自動販賣機套組", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "玻璃", "可愛", "圓形", "旋轉"] },
+    { "num": "104", "name": "電擊獸", "img": "pokopia_pokemons/No_104.png", "move": "--", "skills": ["發電"], "habitat": "燈光舞台", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "玻璃", "能感受火的", "尖銳", "訓練"] },
+    { "num": "105", "name": "電擊魔獸", "img": "pokopia_pokemons/No_105.png", "move": "--", "skills": ["發電", "碾壓"], "habitat": "燈光舞台", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "玻璃", "能感受火的", "堅硬的", "訓練"] },
+    { "num": "106", "name": "拉普拉斯", "img": "pokopia_pokemons/No_106.png", "move": "衝浪", "skills": ["滋潤"], "habitat": "熱帶海岸邊", "note": "暗沉沉的海邊城鎮・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "整潔", "觀賞樂趣", "能治癒傷口的"] },
+    { "num": "107", "name": "小卡比獸", "img": "pokopia_pokemons/No_107.png", "move": "--", "skills": ["重踏"], "habitat": "樹蔭下熟睡的卡比獸", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["柔軟", "能感受大自然的", "像食物", "搖晃", "大家一起用的"] },
+    { "num": "108", "name": "卡比獸（萌苔）", "img": "pokopia_pokemons/No_108.png", "move": "--", "skills": ["貪吃鬼"], "habitat": "供奉美食", "note": "暗沉沉的海邊城鎮", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "布製", "像食物", "觀賞樂趣", "不可思議"] },
+    { "num": "108", "name": "卡比獸（一般）", "img": "pokopia_pokemons/No_108_2.png", "move": "--", "skills": ["重踏", "交易"], "habitat": "樹蔭下熟睡的卡比獸", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["柔軟", "布製", "像食物", "搖晃", "交通工具"] },
+    { "num": "109", "name": "圓絲蛛", "img": "pokopia_pokemons/No_109.png", "move": "--", "skills": ["亂撒"], "habitat": "黃色的草叢", "note": "任何區域・普通", "scatterItem": "線團", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "垃圾", "交通工具", "五彩繽紛"] },
+    { "num": "110", "name": "阿利多斯", "img": "pokopia_pokemons/No_110.png", "move": "--", "skills": ["亂撒"], "habitat": "黃色的草叢", "note": "--", "scatterItem": "線團", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "垃圾", "交通工具", "五彩繽紛"] },
+    { "num": "111", "name": "咩利羊", "img": "pokopia_pokemons/No_111.png", "move": "--", "skills": ["發電", "亂撒"], "habitat": "用毛線來織東西吧", "note": "任何區域・普通", "scatterItem": "棉花", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "閃閃發光", "玻璃", "可愛", "布製"] },
+    { "num": "112", "name": "茸茸羊", "img": "pokopia_pokemons/No_112.png", "move": "--", "skills": ["發電", "亂撒"], "habitat": "夜晚的慶典會場", "note": "--", "scatterItem": "棉花", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "閃閃發光", "玻璃", "可愛", "交通工具"] },
+    { "num": "113", "name": "電龍", "img": "pokopia_pokemons/No_113.png", "move": "--", "skills": ["發電", "交易"], "habitat": "自然風格的生活", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "閃閃發光", "玻璃", "可愛", "花朵盛開"] },
+    { "num": "114", "name": "露力麗", "img": "pokopia_pokemons/No_114.png", "move": "--", "skills": ["滋潤", "帶動氣氛"], "habitat": "濕潤的黃色草叢", "note": "任何區域", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["可愛", "整潔", "能治癒傷口的", "交通工具"] },
+    { "num": "115", "name": "瑪力露", "img": "pokopia_pokemons/No_115.png", "move": "--", "skills": ["滋潤", "帶動氣氛"], "habitat": "濕潤的黃色草叢", "note": "任何區域", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["可愛", "整潔", "圓形", "象徵"] },
+    { "num": "116", "name": "瑪力露麗", "img": "pokopia_pokemons/No_116.png", "move": "--", "skills": ["滋潤", "建造"], "habitat": "碼頭", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["可愛", "建設", "搖晃", "象徵"] },
+    { "num": "117", "name": "烏波-帕底亞", "img": "pokopia_pokemons/No_117.png", "move": "--", "skills": ["亂撒"], "habitat": "沼澤的草叢", "note": "--", "scatterItem": "軟塌塌黏土", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["垃圾", "能感受土的", "石造", "整潔", "大家一起用的"] },
+    { "num": "118", "name": "土王", "img": "pokopia_pokemons/No_118.png", "move": "--", "skills": ["重踏", "亂撒"], "habitat": "沼澤的草叢", "note": "--", "scatterItem": "軟塌塌黏土", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["垃圾", "能感受土的", "能感受水的", "整潔", "圓形"] },
+    { "num": "119", "name": "圖圖犬（彩繪匠）", "img": "pokopia_pokemons/No_119.png", "move": "--", "skills": ["彩繪"], "habitat": "小小畫室", "note": "暗沉沉的海邊城鎮，可遇見", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "布製", "不可思議", "五彩繽紛", "閃閃發光"] },
+    { "num": "120", "name": "火雉雞", "img": "pokopia_pokemons/No_120.png", "move": "--", "skills": ["點火"], "habitat": "咕咕啾啾大餐", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "可愛", "容器", "花朵盛開"] },
+    { "num": "121", "name": "力壯雞", "img": "pokopia_pokemons/No_121.png", "move": "--", "skills": ["點火", "建造"], "habitat": "火力發電廠", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "訓練", "容器", "建設"] },
+    { "num": "122", "name": "火焰雞", "img": "pokopia_pokemons/No_122.png", "move": "--", "skills": ["點火", "建造"], "habitat": "咕咕啾啾大餐", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "華麗", "訓練", "容器", "建設"] },
+    { "num": "123", "name": "長翅鷗", "img": "pokopia_pokemons/No_123.png", "move": "--", "skills": ["滋潤", "飛翔"], "habitat": "高崗的黃色草叢", "note": "任何區域・普通（高處）", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受風的", "整潔", "能感受海的", "觀賞樂趣"] },
+    { "num": "124", "name": "大嘴鷗", "img": "pokopia_pokemons/No_124.png", "move": "--", "skills": ["滋潤", "飛翔"], "habitat": "風之花田", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受風的", "整潔", "能感受海的", "觀賞樂趣"] },
+    { "num": "125", "name": "幕下力士", "img": "pokopia_pokemons/No_125.png", "move": "--", "skills": ["建造", "重踏"], "habitat": "樹蔭的黃色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "建設", "布製", "圓形", "木製"] },
+    { "num": "126", "name": "鐵掌力士", "img": "pokopia_pokemons/No_126.png", "move": "--", "skills": ["建造", "重踏"], "habitat": "高崗的黃色草叢", "note": "任何區域・稀有", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "建設", "布製", "圓形", "交通工具"] },
+    { "num": "127", "name": "阿勃梭魯", "img": "pokopia_pokemons/No_127.png", "move": "--", "skills": ["伐木"], "habitat": "歡迎光臨度假村", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["柔軟", "能感受風的", "有文字", "看起來很難", "訓練"] },
+    { "num": "128", "name": "波加曼", "img": "pokopia_pokemons/No_128.png", "move": "--", "skills": ["滋潤"], "habitat": "濕潤的黃色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "能感受風的", "整潔", "容器"] },
+    { "num": "129", "name": "波皇子", "img": "pokopia_pokemons/No_129.png", "move": "--", "skills": ["滋潤", "交易"], "habitat": "濕潤的黃色草叢", "note": "任何區域・稀有", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "能感受風的", "整潔", "容器"] },
+    { "num": "130", "name": "帝王拿波", "img": "pokopia_pokemons/No_130.png", "move": "--", "skills": ["滋潤", "交易"], "habitat": "料理送來了", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "金屬的", "整潔", "有文字"] },
+    { "num": "131", "name": "差不多娃娃", "img": "pokopia_pokemons/No_131.png", "move": "--", "skills": ["交易"], "habitat": "到收銀檯結帳", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "布製", "能治癒傷口的", "可愛", "圓形"] },
+    { "num": "132", "name": "破破袋", "img": "pokopia_pokemons/No_132.png", "move": "--", "skills": ["回收利用"], "habitat": "垃圾集中站", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["垃圾", "容器", "看起來很難", "閃閃發光", "群聚的"] },
+    { "num": "133", "name": "灰塵山", "img": "pokopia_pokemons/No_133.png", "move": "--", "skills": ["回收利用", "亂撒"], "habitat": "垃圾集中站", "note": "--", "scatterItem": "不可燃垃圾", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["垃圾", "容器", "看起來很難", "閃閃發光", "群聚的"] },
+    { "num": "134", "name": "索羅亞", "img": "pokopia_pokemons/No_134.png", "move": "--", "skills": ["交易"], "habitat": "涼爽的花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["昏暗"], "favorite_things": ["閃閃發光", "華麗", "玻璃", "可愛", "大家一起用的"] },
+    { "num": "135", "name": "索羅亞克", "img": "pokopia_pokemons/No_135.png", "move": "--", "skills": ["伐木", "交易"], "habitat": "小心機關", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["閃閃發光", "華麗", "玻璃", "不可思議", "大家一起用的"] },
+    { "num": "136", "name": "泡沫栗鼠", "img": "pokopia_pokemons/No_136.png", "move": "--", "skills": ["分類"], "habitat": "更衣區", "note": "任何區域", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "布製", "交通工具", "可愛", "整潔"] },
+    { "num": "137", "name": "奇諾栗鼠", "img": "pokopia_pokemons/No_137.png", "move": "--", "skills": ["回收利用", "分類"], "habitat": "更衣中別偷看", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "布製", "交通工具", "可愛", "整潔"] },
+    { "num": "138", "name": "強顎雞母蟲", "img": "pokopia_pokemons/No_138.png", "move": "--", "skills": ["伐木"], "habitat": "黃色的草叢", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "電力驅動", "觀賞樂趣", "能感受土的", "容器"] },
+    { "num": "139", "name": "蟲電寶", "img": "pokopia_pokemons/No_139.png", "move": "--", "skills": ["伐木", "發電"], "habitat": "自動販賣機旁偷個閒", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "電力驅動", "觀賞樂趣", "玻璃", "方形"] },
+    { "num": "140", "name": "鍬農炮蟲", "img": "pokopia_pokemons/No_140.png", "move": "--", "skills": ["伐木", "發電"], "habitat": "樹蔭的花田", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "電力驅動", "訓練", "玻璃", "能感受風的"] },
+    { "num": "141", "name": "謎擬Q", "img": "pokopia_pokemons/No_141.png", "move": "--", "skills": ["交易"], "habitat": "皮卡丘空間", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "可愛", "電力驅動", "布製", "大家一起用的"] },
+    { "num": "142", "name": "布撥", "img": "pokopia_pokemons/No_142.png", "move": "--", "skills": ["發電"], "habitat": "涼爽的花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "閃閃發光", "可愛", "玻璃", "大家一起用的"] },
+    { "num": "143", "name": "布土撥", "img": "pokopia_pokemons/No_143.png", "move": "--", "skills": ["發電", "碾壓"], "habitat": "餓肚肚用餐區", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "閃閃發光", "訓練", "玻璃", "大家一起用的"] },
+    { "num": "144", "name": "巴布土撥", "img": "pokopia_pokemons/No_144.png", "move": "--", "skills": ["發電", "碾壓"], "habitat": "咖啡空間", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["容器", "閃閃發光", "訓練", "能治癒傷口的", "大家一起用的"] },
+    { "num": "145", "name": "米立龍", "img": "pokopia_pokemons/No_145.png", "move": "--", "skills": ["交易"], "habitat": "海灘套組", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "海", "大家用", "有文字", "容器"] },
+    { "num": "146", "name": "阿柏蛇", "img": "pokopia_pokemons/No_146.png", "move": "--", "skills": ["找東西"], "habitat": "濕潤的優雅花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["垃圾", "觀賞樂趣", "能感受大自然的", "細長", "旋轉"] },
+    { "num": "147", "name": "阿柏怪", "img": "pokopia_pokemons/No_147.png", "move": "--", "skills": ["找東西"], "habitat": "濕潤的優雅花田", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["垃圾", "觀賞樂趣", "能感受大自然的", "細長", "旋轉"] },
+    { "num": "148", "name": "皮寶寶", "img": "pokopia_pokemons/No_148.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "優雅的花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["昏暗"], "favorite_things": ["可愛", "圓形", "五彩繽紛", "能治癒傷口的", "交通工具"] },
+    { "num": "149", "name": "皮皮", "img": "pokopia_pokemons/No_149.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "銅像景點", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["昏暗"], "favorite_things": ["可愛", "遊樂場", "花朵盛開", "療癒", "大家一起用的"] },
+    { "num": "150", "name": "皮可西", "img": "pokopia_pokemons/No_150.png", "move": "--", "skills": ["交易", "帶動氣氛"], "habitat": "銅像景點", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["昏暗"], "favorite_things": ["可愛", "遊樂場", "花朵盛開", "療癒", "大家一起用的"] },
+    { "num": "151", "name": "寶寶丁", "img": "pokopia_pokemons/No_151.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "花田的樹樁舞台", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["柔軟", "可愛", "遊樂場", "能治癒傷口的", "聲音"] },
+    { "num": "152", "name": "胖丁", "img": "pokopia_pokemons/No_152.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "花田的樹樁舞台", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "可愛", "遊樂場", "能治癒傷口的", "搖晃"] },
+    { "num": "153", "name": "胖可丁", "img": "pokopia_pokemons/No_153.png", "move": "--", "skills": ["交易", "帶動氣氛"], "habitat": "演唱會舞台", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "可愛", "遊樂場", "能治癒傷口的", "大家一起用的"] },
+    { "num": "154", "name": "地鼠", "img": "pokopia_pokemons/No_154.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "樹蔭的紅色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受土的", "遊樂場", "可愛", "大家一起用的", "細長"] },
+    { "num": "155", "name": "三地鼠", "img": "pokopia_pokemons/No_155.png", "move": "--", "skills": ["碾壓", "帶動氣氛"], "habitat": "大家一起派對", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受土的", "遊樂場", "群聚的", "大家一起用的", "細長"] },
+    { "num": "156", "name": "腕力", "img": "pokopia_pokemons/No_156.png", "move": "--", "skills": ["建造", "分類"], "habitat": "岩影的草地", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "整潔", "石造", "堅硬的", "大家一起用的"] },
+    { "num": "157", "name": "豪力", "img": "pokopia_pokemons/No_157.png", "move": "--", "skills": ["建造", "分類"], "habitat": "草叢訓練場", "note": "任何區域・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "建設", "石造", "堅硬的", "大家一起用的"] },
+    { "num": "158", "name": "怪力", "img": "pokopia_pokemons/No_158.png", "move": "--", "skills": ["建造", "分類"], "habitat": "鏘啷鏘啷鋼構工程", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["訓練", "建設", "石造", "堅硬的", "大家一起用的"] },
+    { "num": "159", "name": "小拳石", "img": "pokopia_pokemons/No_159.png", "move": "--", "skills": ["碾壓"], "habitat": "綠色的草叢", "note": "空空鎮", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["石造", "堅硬的", "旋轉", "圓形", "訓練"] },
+    { "num": "160", "name": "隆隆石", "img": "pokopia_pokemons/No_160.png", "move": "滾動", "skills": ["碾壓"], "habitat": "滿滿是苔的岩石", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["石造", "堅硬的", "旋轉", "圓形", "訓練"] },
+    { "num": "161", "name": "隆隆岩", "img": "pokopia_pokemons/No_161.png", "move": "--", "skills": ["碾壓", "交易"], "habitat": "滿滿是苔的岩石", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["昏暗"], "favorite_things": ["石造", "堅硬的", "旋轉", "圓形", "訓練"] },
+    { "num": "162", "name": "鴨嘴寶寶", "img": "pokopia_pokemons/No_162.png", "move": "--", "skills": ["點火"], "habitat": "漂亮的花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "觀賞樂趣", "可愛", "搖晃"] },
+    { "num": "163", "name": "鴨嘴火獸", "img": "pokopia_pokemons/No_163.png", "move": "--", "skills": ["點火"], "habitat": "挖挖又燒燒", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "電力驅動", "堅硬的", "訓練"] },
+    { "num": "164", "name": "鴨嘴炎獸", "img": "pokopia_pokemons/No_164.png", "move": "--", "skills": ["點火", "碾壓"], "habitat": "迷你廚房", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "電力驅動", "堅硬的", "訓練"] },
+    { "num": "165", "name": "盆才怪", "img": "pokopia_pokemons/No_165.png", "move": "--", "skills": ["重踏"], "habitat": "樹蔭的紅色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "堅硬的", "能感受大自然的", "木製", "圓形"] },
+    { "num": "166", "name": "樹才怪", "img": "pokopia_pokemons/No_166.png", "move": "--", "skills": ["交易"], "habitat": "大家一起派對", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "堅硬的", "能感受大自然的", "木製", "觀賞樂趣"] },
+    { "num": "167", "name": "黑暗鴨", "img": "pokopia_pokemons/No_167.png", "move": "--", "skills": ["飛翔", "交易"], "habitat": "高崗的紅色草叢", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["閃閃發光", "能感受風的", "大家一起用的", "華麗", "布製"] },
+    { "num": "168", "name": "烏鴉頭頭", "img": "pokopia_pokemons/No_168.png", "move": "--", "skills": ["飛翔", "交易"], "habitat": "啁啁啾啾演唱會", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["閃閃發光", "能感受風的", "詭異", "有文字", "玻璃"] },
+    { "num": "169", "name": "幼基拉斯", "img": "pokopia_pokemons/No_169.png", "move": "--", "skills": ["重踏", "碾壓"], "habitat": "滿滿是苔", "note": "任何區域", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["昏暗"], "favorite_things": ["石造", "能感受土的", "華麗", "閃閃發光", "像食物"] },
+    { "num": "170", "name": "沙基拉斯", "img": "pokopia_pokemons/No_170.png", "move": "--", "skills": ["重踏", "碾壓"], "habitat": "樹蔭的粉色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["石造", "堅硬的", "華麗", "閃閃發光", "觀賞樂趣"] },
+    { "num": "171", "name": "班基拉斯", "img": "pokopia_pokemons/No_171.png", "move": "--", "skills": ["重踏", "碾壓"], "habitat": "手推車蔬菜田", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["石造", "堅硬的", "華麗", "閃閃發光", "訓練"] },
+    { "num": "172", "name": "蓮葉童子", "img": "pokopia_pokemons/No_172.png", "move": "--", "skills": ["滋潤"], "habitat": "濕潤的紅色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受大自然的", "整潔", "容器", "聲音"] },
+    { "num": "173", "name": "蓮帽小童", "img": "pokopia_pokemons/No_173.png", "move": "--", "skills": ["滋潤"], "habitat": "快樂無比的水坑", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受大自然的", "整潔", "容器", "聲音"] },
+    { "num": "174", "name": "樂天河童", "img": "pokopia_pokemons/No_174.png", "move": "--", "skills": ["滋潤", "帶動氣氛"], "habitat": "快樂無比的水坑", "note": "任何區域・稀有", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受大自然的", "遊樂場", "容器", "聲音"] },
+    { "num": "175", "name": "大嘴娃", "img": "pokopia_pokemons/No_175.png", "move": "--", "skills": ["建造", "交易"], "habitat": "到收銀檯結帳", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["金屬的", "可愛", "五彩繽紛", "像食物", "大家用"] },
+    { "num": "176", "name": "煤炭龜", "img": "pokopia_pokemons/No_176.png", "move": "--", "skills": ["點火"], "habitat": "生苔的溫泉", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "金屬的", "堅硬的", "觀賞樂趣"] },
+    { "num": "177", "name": "圓法師", "img": "pokopia_pokemons/No_177.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "紅色的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受大自然的", "木製", "聲音", "五彩繽紛", "觀賞樂趣"] },
+    { "num": "178", "name": "音箱蟀", "img": "pokopia_pokemons/No_178.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "音樂和閱讀", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受大自然的", "木製", "聲音", "五彩繽紛", "觀賞樂趣"] },
+    { "num": "179", "name": "聒噪鳥", "img": "pokopia_pokemons/No_179.png", "move": "--", "skills": ["飛翔", "帶動氣氛"], "habitat": "高崗的紅色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受風的", "布製", "細長", "遊樂場", "聲音"] },
+    { "num": "180", "name": "利歐路", "img": "pokopia_pokemons/No_180.png", "move": "--", "skills": ["建造"], "habitat": "紅色的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["訓練", "布製", "建設", "群聚的", "觀賞樂趣"] },
+    { "num": "181", "name": "路卡利歐", "img": "pokopia_pokemons/No_181.png", "move": "--", "skills": ["建造"], "habitat": "跟著節奏一二跳", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["訓練", "金屬的", "建設", "看起來很難", "療癒"] },
+    { "num": "182", "name": "洛托姆（立體音響洛托姆）", "img": "pokopia_pokemons/No_182.png", "move": "--", "skills": ["DJ"], "habitat": "音樂和閱讀", "note": "凸隆隆山地", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["閃閃發光", "玻璃", "聲音", "大家一起用的", "方形"] },
+    { "num": "183", "name": "燃燒蟲", "img": "pokopia_pokemons/No_183.png", "move": "--", "skills": ["點火", "亂撒"], "habitat": "樹蔭的優雅花田", "note": "任何區域・普通", "scatterItem": "線團", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["乾燥"], "favorite_things": ["能感受大自然的", "能感受火的", "尖銳", "木製", "象徵"] },
+    { "num": "184", "name": "火神蛾", "img": "pokopia_pokemons/No_184.png", "move": "--", "skills": ["點火", "亂撒"], "habitat": "熔岩熔岩熱呼呼", "note": "--", "scatterItem": "線團", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["乾燥"], "favorite_things": ["能感受大自然的", "能感受火的", "有文字", "木製", "象徵"] },
+    { "num": "185", "name": "木木梟", "img": "pokopia_pokemons/No_185.png", "move": "--", "skills": ["栽培"], "habitat": "新鮮蔬菜田", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受大自然的", "木製", "能感受風的", "容器", "旋轉"] },
+    { "num": "186", "name": "投羽梟", "img": "pokopia_pokemons/No_186.png", "move": "--", "skills": ["栽培", "伐木"], "habitat": "三角形樹蔭下的岩石與草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受大自然的", "木製", "能感受風的", "細長", "整潔"] },
+    { "num": "187", "name": "狙射樹梟", "img": "pokopia_pokemons/No_187.png", "move": "--", "skills": ["栽培", "伐木"], "habitat": "現代生活", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受大自然的", "詭異", "木製", "能感受風的", "有文字"] },
+    { "num": "188", "name": "炎兔兒", "img": "pokopia_pokemons/No_188.png", "move": "--", "skills": ["點火"], "habitat": "紅色的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "柔軟", "大家一起用的", "尖銳"] },
+    { "num": "189", "name": "騰蹴小將", "img": "pokopia_pokemons/No_189.png", "move": "--", "skills": ["點火"], "habitat": "露天溫泉", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "遊樂場", "大家用", "容器"] },
+    { "num": "190", "name": "閃焰王牌", "img": "pokopia_pokemons/No_190.png", "move": "--", "skills": ["點火", "帶動氣氛"], "habitat": "清爽的更衣室", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "遊樂場", "大家用", "圓形"] },
+    { "num": "191", "name": "貪吃栗鼠", "img": "pokopia_pokemons/No_191.png", "move": "--", "skills": ["找東西", "帶動氣氛"], "habitat": "樹蔭的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["柔軟", "木製", "觀賞樂趣", "像食物", "圓形"] },
+    { "num": "192", "name": "藏飽栗鼠（廚師）", "img": "pokopia_pokemons/No_192.png", "move": "--", "skills": ["開派對"], "habitat": "主廚的廚房", "note": "凸隆隆山地，解鎖劈開木桶任務可遇見。帶他去做料理，玩家的料理數量會增加。", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["柔軟", "金屬的", "大家一起用的", "像食物", "華麗"] },
+    { "num": "193", "name": "小炭仔", "img": "pokopia_pokemons/No_193.png", "move": "--", "skills": ["點火", "分類"], "habitat": "平交道", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["溫暖"], "favorite_things": ["石造", "能感受火的", "堅硬的", "金屬的", "交通工具"] },
+    { "num": "194", "name": "大炭車", "img": "pokopia_pokemons/No_194.png", "move": "--", "skills": ["點火", "分類"], "habitat": "平交道", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["石造", "能感受火的", "堅硬的", "金屬的", "交通工具"] },
+    { "num": "195", "name": "巨炭山", "img": "pokopia_pokemons/No_195.png", "move": "--", "skills": ["點火", "分類"], "habitat": "沉甸甸的鐵", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["石造", "能感受火的", "堅硬的", "金屬的", "交通工具"] },
+    { "num": "196", "name": "毒電嬰", "img": "pokopia_pokemons/No_196.png", "move": "--", "skills": ["發電"], "habitat": "悠閒回顧照片", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["電力驅動", "閃閃發光", "聲音", "玻璃", "垃圾"] },
+    { "num": "197", "name": "顫弦蠑螈-高調", "img": "pokopia_pokemons/No_197.png", "move": "--", "skills": ["發電", "帶動氣氛"], "habitat": "高調的搖滾舞台", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["電力驅動", "遊樂場", "聲音", "細長", "尖銳"] },
+    { "num": "197", "name": "顫弦蠑螈-低調", "img": "pokopia_pokemons/No_197_2.png", "move": "--", "skills": ["發電", "帶動氣氛"], "habitat": "低調的搖滾舞台", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["電力驅動", "遊樂場", "聲音", "細長", "尖銳"] },
+    { "num": "198", "name": "狗仔包", "img": "pokopia_pokemons/No_198.png", "move": "--", "skills": ["找東西"], "habitat": "優雅的花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["可愛", "觀賞樂趣", "柔軟", "能感受火的", "有文字"] },
+    { "num": "199", "name": "麻花犬", "img": "pokopia_pokemons/No_199.png", "move": "--", "skills": ["找東西", "交易"], "habitat": "大口吃麵包工坊", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["溫暖"], "favorite_things": ["可愛", "觀賞樂趣", "大家用", "能感受火的", "很像食物的"] },
+    { "num": "200", "name": "炭小侍", "img": "pokopia_pokemons/No_200.png", "move": "--", "skills": ["點火"], "habitat": "熔岩熔岩熱呼呼", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "不可思議", "訓練", "華麗"] },
+    { "num": "201", "name": "紅蓮鎧騎", "img": "pokopia_pokemons/No_201.png", "move": "--", "skills": ["點火", "交易"], "habitat": "忠誠騎士的祭壇", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "不可思議", "訓練", "華麗"] },
+    { "num": "202", "name": "蒼炎刃鬼", "img": "pokopia_pokemons/No_202.png", "move": "--", "skills": ["點火", "交易"], "habitat": "怨念騎士的祭壇", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "詭異", "不可思議", "華麗"] },
+    { "num": "203", "name": "晶光芽", "img": "pokopia_pokemons/No_203.png", "move": "--", "skills": ["亂撒"], "habitat": "詭異的白色岩石", "note": "--", "scatterItem": "鐵", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["石造", "堅硬的", "垃圾", "閃閃發光", "看起來很難"] },
+    { "num": "204", "name": "晶光花", "img": "pokopia_pokemons/No_204.png", "move": "--", "skills": ["亂撒"], "habitat": "詭異的白色岩石", "note": "--", "scatterItem": "鐵", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["石造", "堅硬的", "垃圾", "閃閃發光", "看起來很難"] },
+    { "num": "205", "name": "索財靈", "img": "pokopia_pokemons/No_205.png", "move": "--", "skills": ["收藏家"], "habitat": "迷你博物館", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "金屬的", "不可思議", "閃光", "難度高"] },
+    { "num": "206", "name": "賽富豪", "img": "pokopia_pokemons/No_206.png", "move": "--", "skills": ["收藏家"], "habitat": "極致豪華", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["詭異", "金屬的", "不可思議", "閃光", "難度高"] },
+    { "num": "207", "name": "六尾", "img": "pokopia_pokemons/No_207.png", "move": "--", "skills": ["點火"], "habitat": "軟綿綿的花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "柔軟", "可愛", "圓形", "花朵盛開"] },
+    { "num": "208", "name": "九尾", "img": "pokopia_pokemons/No_208.png", "move": "--", "skills": ["點火"], "habitat": "九道火焰", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "柔軟", "觀賞樂趣", "華麗", "花朵"] },
+    { "num": "209", "name": "蚊香蝌蚪", "img": "pokopia_pokemons/No_209.png", "move": "--", "skills": ["滋潤"], "habitat": "咻咻打掃", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "圓形", "交通工具", "旋轉"] },
+    { "num": "210", "name": "蚊香蛙", "img": "pokopia_pokemons/No_210.png", "move": "--", "skills": ["滋潤"], "habitat": "濕潤的軟綿綿花田", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "能感受大自然的", "訓練", "旋轉"] },
+    { "num": "211", "name": "蚊香泳士", "img": "pokopia_pokemons/No_211.png", "move": "--", "skills": ["滋潤", "建造"], "habitat": "在道場訓練", "note": "亮晶晶的空島，可遇見。", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "建設", "訓練", "大家一起用的"] },
+    { "num": "212", "name": "蚊香蛙皇", "img": "pokopia_pokemons/No_212.png", "move": "--", "skills": ["滋潤", "帶動氣氛"], "habitat": "養生溫泉", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "遊樂場", "聲音", "群聚的", "大家一起用的"] },
+    { "num": "213", "name": "凱西", "img": "pokopia_pokemons/No_213.png", "move": "--", "skills": ["瞬間移動"], "habitat": "水晶占卜", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["不可思議", "搖晃", "金屬的", "柔軟", "觀賞樂趣"] },
+    { "num": "214", "name": "勇基拉", "img": "pokopia_pokemons/No_214.png", "move": "--", "skills": ["瞬間移動"], "habitat": "水晶占卜", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["不可思議", "搖晃", "金屬的", "容器", "觀賞樂趣"] },
+    { "num": "215", "name": "胡地", "img": "pokopia_pokemons/No_215.png", "move": "--", "skills": ["瞬間移動", "交易"], "habitat": "實驗空間", "note": "亮晶晶的空島", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["不可思議", "搖晃", "金屬的", "有文字", "觀賞樂趣"] },
+    { "num": "216", "name": "魔尼尼", "img": "pokopia_pokemons/No_216.png", "move": "--", "skills": ["分類"], "habitat": "亮晶晶洗手台", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["不可思議", "可愛", "交通工具", "遊樂", "色彩"] },
+    { "num": "217", "name": "魔牆人偶", "img": "pokopia_pokemons/No_217.png", "move": "--", "skills": ["建造", "分類"], "habitat": "亮晶晶的洗手間", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["不可思議", "可愛", "交通工具", "搖晃", "觀賞"] },
+    { "num": "218", "name": "多邊獸", "img": "pokopia_pokemons/No_218.png", "move": "--", "skills": ["回收利用"], "habitat": "研究員的桌子", "note": "會教導無線電波發射器材料單，可替代電線桿。", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "不可思議", "方形", "建設", "五彩繽紛"] },
+    { "num": "219", "name": "多邊獸2", "img": "pokopia_pokemons/No_219.png", "move": "--", "skills": ["回收利用"], "habitat": "辦公桌", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "不可思議", "圓形", "建設", "五彩繽紛"] },
+    { "num": "220", "name": "多邊獸Z", "img": "pokopia_pokemons/No_220.png", "move": "--", "skills": ["稀有化"], "habitat": "遊戲連線對戰", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "不可思議", "布製", "觀賞樂趣", "色彩"] },
+    { "num": "221", "name": "迷你龍", "img": "pokopia_pokemons/No_221.png", "move": "--", "skills": ["滋潤"], "habitat": "簡約浴室", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受火的", "整潔", "可愛", "細長"] },
+    { "num": "222", "name": "哈克龍", "img": "pokopia_pokemons/No_222.png", "move": "--", "skills": ["滋潤"], "habitat": "簡約浴室", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受火的", "整潔", "可愛", "細長"] },
+    { "num": "223", "name": "快龍", "img": "pokopia_pokemons/No_223.png", "move": "滑翔", "skills": ["滋潤", "飛翔"], "habitat": "水邊小船", "note": "亮晶晶的空島", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受火的", "能感受風的", "整潔", "象徵", "花朵盛開"] },
+    { "num": "224", "name": "火球鼠", "img": "pokopia_pokemons/No_224.png", "move": "--", "skills": ["點火"], "habitat": "水管秘密基地", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "布製", "細長", "金屬的", "交通工具"] },
+    { "num": "225", "name": "火岩鼠", "img": "pokopia_pokemons/No_225.png", "move": "--", "skills": ["點火"], "habitat": "暖爐旁打盹", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "布製", "細長", "金屬的", "交通工具"] },
+    { "num": "226", "name": "火爆獸", "img": "pokopia_pokemons/No_226.png", "move": "--", "skills": ["點火", "交易"], "habitat": "流行潮流", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "布製", "細長", "金屬的", "交通工具"] },
+    { "num": "227", "name": "夢妖", "img": "pokopia_pokemons/No_227.png", "move": "--", "skills": ["交易"], "habitat": "毛茸茸的花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "不可思議", "閃閃發光", "色彩", "觀賞"] },
+    { "num": "228", "name": "夢妖魔", "img": "pokopia_pokemons/No_228.png", "move": "--", "skills": ["分類", "交易"], "habitat": "家庭影院", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "不可思議", "聲音", "搖晃", "大家一起用的"] },
+    { "num": "229", "name": "麒麟奇", "img": "pokopia_pokemons/No_229.png", "move": "--", "skills": ["分類"], "habitat": "樹蔭的毛茸茸花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["溫暖"], "favorite_things": ["柔軟", "不可思議", "交通工具", "觀賞樂趣", "細長"] },
+    { "num": "230", "name": "奇麒麟", "img": "pokopia_pokemons/No_230.png", "move": "--", "skills": ["找東西", "分類"], "habitat": "樹蔭的軟綿綿花田", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["溫暖"], "favorite_things": ["柔軟", "不可思議", "交通工具", "觀賞樂趣", "細長"] },
+    { "num": "231", "name": "拉魯拉絲", "img": "pokopia_pokemons/No_231.png", "move": "--", "skills": ["瞬間移動"], "habitat": "學習空間", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["不可思議", "可愛", "能治癒傷口的", "觀賞樂趣", "象徵"] },
+    { "num": "232", "name": "奇魯莉安", "img": "pokopia_pokemons/No_232.png", "move": "--", "skills": ["瞬間移動"], "habitat": "質感化妝台", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["不可思議", "可愛", "能治癒傷口的", "觀賞樂趣", "象徵"] },
+    { "num": "233", "name": "沙奈朵", "img": "pokopia_pokemons/No_233.png", "move": "--", "skills": ["瞬間移動", "交易"], "habitat": "迷你圖書館", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["不可思議", "華麗", "能治癒傷口的", "觀賞樂趣", "象徵"] },
+    { "num": "234", "name": "艾路雷朵", "img": "pokopia_pokemons/No_234.png", "move": "--", "skills": ["建造", "瞬間移動"], "habitat": "在道場訓練", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["不可思議", "訓練", "能治癒傷口的", "建設", "布製"] },
+    { "num": "235", "name": "正電拍拍", "img": "pokopia_pokemons/No_235.png", "move": "--", "skills": ["發電"], "habitat": "絕景拍照版", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "玻璃", "柔軟", "可愛", "大家一起用的"] },
+    { "num": "236", "name": "負電拍拍", "img": "pokopia_pokemons/No_236.png", "move": "--", "skills": ["發電"], "habitat": "絕景拍照版", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "玻璃", "柔軟", "可愛", "大家一起用的"] },
+    { "num": "237", "name": "大顎蟻", "img": "pokopia_pokemons/No_237.png", "move": "--", "skills": ["重踏", "亂撒"], "habitat": "粉色的草叢", "note": "任何區域・普通", "scatterItem": "軟塌塌黏土", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["乾燥"], "favorite_things": ["能感受土的", "堅硬的", "不可思議", "觀賞樂趣", "訓練"] },
+    { "num": "238", "name": "超音波幼蟲", "img": "pokopia_pokemons/No_238.png", "move": "--", "skills": ["重踏", "飛翔"], "habitat": "粉色的草叢", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["乾燥"], "favorite_things": ["能感受土的", "能感受火的", "能感受大自然的", "華麗", "聲音"] },
+    { "num": "239", "name": "沙漠蜻蜓", "img": "pokopia_pokemons/No_239.png", "move": "--", "skills": ["重踏", "飛翔"], "habitat": "粉色的草叢", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["乾燥"], "favorite_things": ["能感受土的", "能感受火的", "能感受大自然的", "石造", "木製"] },
+    { "num": "240", "name": "青綿鳥", "img": "pokopia_pokemons/No_240.png", "move": "--", "skills": ["亂撒"], "habitat": "粉色的草叢", "note": "任何區域・普通", "scatterItem": "棉花", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "能感受風的", "可愛", "觀賞樂趣", "整潔"] },
+    { "num": "241", "name": "七夕青鳥", "img": "pokopia_pokemons/No_241.png", "move": "--", "skills": ["飛翔", "亂撒"], "habitat": "鳥鳴花園", "note": "--", "scatterItem": "棉花", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["柔軟", "能感受風的", "可愛", "觀賞樂趣", "聲音"] },
+    { "num": "242", "name": "夜巡靈", "img": "pokopia_pokemons/No_242.png", "move": "--", "skills": ["分類"], "habitat": "粉色的草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "不可思議", "交通工具", "玻璃", "布製"] },
+    { "num": "243", "name": "彷徨夜靈", "img": "pokopia_pokemons/No_243.png", "move": "--", "skills": ["分類"], "habitat": "垃圾場的電視", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "不可思議", "交通工具", "柔軟", "容器"] },
+    { "num": "244", "name": "黑夜魔靈", "img": "pokopia_pokemons/No_244.png", "move": "--", "skills": ["分類", "交易"], "habitat": "垃圾場的電視", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["詭異", "不可思議", "交通工具", "大家一起用的", "容器"] },
+    { "num": "245", "name": "鐵啞鈴", "img": "pokopia_pokemons/No_245.png", "move": "--", "skills": ["回收利用"], "habitat": "騎行中休息", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["涼爽"], "favorite_things": ["金屬的", "不可思議", "堅硬的", "難度高", "石造"] },
+    { "num": "246", "name": "金屬怪", "img": "pokopia_pokemons/No_246.png", "move": "--", "skills": ["回收利用"], "habitat": "以成為博士為目標研究中", "note": "任何區域・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["涼爽"], "favorite_things": ["金屬的", "不可思議", "堅硬的", "難度高", "石造"] },
+    { "num": "247", "name": "巨金怪", "img": "pokopia_pokemons/No_247.png", "move": "--", "skills": ["回收利用", "碾壓"], "habitat": "絕佳的遊戲環境", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["涼爽"], "favorite_things": ["金屬的", "不可思議", "堅硬的", "訓練", "華麗"] },
+    { "num": "248", "name": "藤藤蛇", "img": "pokopia_pokemons/No_248.png", "move": "--", "skills": ["栽培", "亂撒"], "habitat": "遊樂園", "note": "--", "scatterItem": "藤蔓繩", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "能感受水的", "搖晃", "閃閃發光"] },
+    { "num": "249", "name": "青藤蛇", "img": "pokopia_pokemons/No_249.png", "move": "--", "skills": ["栽培", "亂撒"], "habitat": "樹蔭的軟綿綿花田", "note": "--", "scatterItem": "藤蔓繩", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "能感受水的", "整潔", "閃閃發光"] },
+    { "num": "250", "name": "君主蛇", "img": "pokopia_pokemons/No_250.png", "move": "--", "skills": ["栽培", "亂撒"], "habitat": "歡迎閱讀", "note": "--", "scatterItem": "藤蔓繩", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受大自然的", "木製", "能感受水的", "容器", "細長"] },
+    { "num": "251", "name": "呱呱泡蛙", "img": "pokopia_pokemons/No_251.png", "move": "--", "skills": ["滋潤"], "habitat": "潤澤的粉色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "整潔", "觀賞樂趣", "容器"] },
+    { "num": "252", "name": "呱頭蛙", "img": "pokopia_pokemons/No_252.png", "move": "--", "skills": ["滋潤"], "habitat": "惡作劇開關", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "整潔", "觀賞樂趣", "容器"] },
+    { "num": "253", "name": "甲賀忍蛙", "img": "pokopia_pokemons/No_253.png", "move": "--", "skills": ["滋潤", "伐木"], "habitat": "惡作劇開關", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "整潔", "閃閃發光", "訓練"] },
+    { "num": "254", "name": "咚咚鼠", "img": "pokopia_pokemons/No_254.png", "move": "--", "skills": ["找東西"], "habitat": "輪胎公園", "note": "亮晶晶的空島", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "可愛", "觀賞樂趣", "大家用", "很像食物的"] },
+    { "num": "255", "name": "嗡蝠", "img": "pokopia_pokemons/No_255.png", "move": "--", "skills": ["找東西"], "habitat": "律動客廳", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受風的", "能感受火的", "觀賞樂趣", "華麗", "很像食物的"] },
+    { "num": "256", "name": "音波龍", "img": "pokopia_pokemons/No_256.png", "move": "--", "skills": ["找東西", "飛翔"], "habitat": "律動客廳", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["能感受風的", "能感受火的", "觀賞樂趣", "遊樂場", "很像食物的"] },
+    { "num": "257", "name": "稚山雀", "img": "pokopia_pokemons/No_257.png", "move": "--", "skills": ["伐木"], "habitat": "毛茸茸的花田", "note": "任何區域・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受風的", "閃閃發光", "容器", "細長", "木製"] },
+    { "num": "258", "name": "藍鴉", "img": "pokopia_pokemons/No_258.png", "move": "--", "skills": ["伐木"], "habitat": "高崗的粉色草叢", "note": "--（高處）", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受風的", "閃閃發光", "容器", "細長", "木製"] },
+    { "num": "259", "name": "鋼鎧鴉", "img": "pokopia_pokemons/No_259.png", "move": "--", "skills": ["伐木", "飛翔"], "habitat": "正在保養人孔蓋", "note": "--", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["明亮"], "favorite_things": ["能感受風的", "金屬的", "閃閃發光", "容器", "木製"] },
+    { "num": "260", "name": "多龍梅西亞", "img": "pokopia_pokemons/No_260.png", "move": "--", "skills": ["找東西", "分類"], "habitat": "樹蔭的粉色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受火的", "詭異", "交通工具", "不可思議", "大家"] },
+    { "num": "261", "name": "多龍奇", "img": "pokopia_pokemons/No_261.png", "move": "--", "skills": ["找東西", "分類"], "habitat": "辦公室倉庫", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受火的", "詭異", "交通工具", "不可思議", "大家"] },
+    { "num": "262", "name": "多龍巴魯托", "img": "pokopia_pokemons/No_262.png", "move": "--", "skills": ["分類", "交易"], "habitat": "辦公室倉庫", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受火的", "詭異", "交通工具", "不可思議", "大家"] },
+    { "num": "263", "name": "新葉喵", "img": "pokopia_pokemons/No_263.png", "move": "--", "skills": ["栽培"], "habitat": "樹蔭的粉色草叢", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "花朵盛開", "容器", "多彩", "可愛"] },
+    { "num": "264", "name": "蒂蕾喵", "img": "pokopia_pokemons/No_264.png", "move": "--", "skills": ["栽培"], "habitat": "跟搭檔一起調查", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "花朵盛開", "尖銳", "多彩", "可愛"] },
+    { "num": "265", "name": "魔幻假面喵", "img": "pokopia_pokemons/No_265.png", "move": "--", "skills": ["栽培", "帶動氣氛"], "habitat": "咚咚驚喜箱", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "花朵盛開", "閃光", "華麗", "可愛"] },
+    { "num": "266", "name": "電海燕", "img": "pokopia_pokemons/No_266.png", "move": "--", "skills": ["發電"], "habitat": "高崗的粉色草叢", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "能感受風的", "能感受海的", "群聚的", "難度高"] },
+    { "num": "267", "name": "大電海燕", "img": "pokopia_pokemons/No_267.png", "move": "--", "skills": ["飛翔", "發電"], "habitat": "高崗的粉色草叢", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "能感受風的", "能感受海的", "群聚的", "細長"] },
+    { "num": "268", "name": "小鍛匠", "img": "pokopia_pokemons/No_268.png", "move": "--", "skills": ["建造"], "habitat": "載著大件行李", "note": "任何區域・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["可愛", "金屬的", "建設", "像食物", "訓練"] },
+    { "num": "269", "name": "巧鍛匠", "img": "pokopia_pokemons/No_269.png", "move": "--", "skills": ["建造"], "habitat": "正在保養人孔蓋", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["可愛", "金屬的", "建設", "大家一起用的", "訓練"] },
+    { "num": "270", "name": "巨鍛匠", "img": "pokopia_pokemons/No_270.png", "move": "--", "skills": ["職人"], "habitat": "大型垃圾場", "note": "亮晶晶的空島，一座廢棄物高塔上可遇見。", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["可愛", "金屬的", "建設", "方形", "訓練"] },
+    { "num": "271", "name": "化石翼龍", "img": "pokopia_pokemons/No_271.png", "move": "--", "skills": ["飛翔"], "habitat": "飛翼化石展示台", "note": "--", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "能感受風的", "堅硬的", "閃閃發光", "旋轉"] },
+    { "num": "272", "name": "頭蓋龍", "img": "pokopia_pokemons/No_272.png", "move": "--", "skills": ["碾壓"], "habitat": "頭蓋化石展示台", "note": "--", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "堅硬的", "搖晃", "大家一起用的", "訓練"] },
+    { "num": "273", "name": "戰槌龍", "img": "pokopia_pokemons/No_273.png", "move": "--", "skills": ["碾壓", "亂撒"], "habitat": "頭槌化石展示台", "note": "--", "scatterItem": "石頭", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "堅硬的", "金屬的", "華麗", "訓練"] },
+    { "num": "274", "name": "盾甲龍", "img": "pokopia_pokemons/No_274.png", "move": "--", "skills": ["碾壓"], "habitat": "盾甲化石展示台", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "堅硬的", "金屬的", "華麗", "圓形"] },
+    { "num": "275", "name": "護城龍", "img": "pokopia_pokemons/No_275.png", "move": "--", "skills": ["碾壓", "亂撒"], "habitat": "護盾化石展示台", "note": "任何區域・普通", "scatterItem": "石頭", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "堅硬的", "金屬的", "華麗", "訓練"] },
+    { "num": "276", "name": "寶寶暴龍", "img": "pokopia_pokemons/No_276.png", "move": "--", "skills": ["碾壓"], "habitat": "顎之化石展示台", "note": "--", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "堅硬的", "能感受火的", "華麗", "訓練"] },
+    { "num": "277", "name": "怪顎龍", "img": "pokopia_pokemons/No_277.png", "move": "--", "skills": ["碾壓", "亂撒"], "habitat": "暴君化石展示台", "note": "任何區域・普通", "scatterItem": "石頭", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["乾燥"], "favorite_things": ["石造", "堅硬的", "能感受火的", "華麗", "訓練"] },
+    { "num": "278", "name": "冰雪龍", "img": "pokopia_pokemons/No_278.png", "move": "--", "skills": ["碾壓"], "habitat": "鰭之化石展示台", "note": "--", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["涼爽"], "favorite_things": ["石造", "堅硬的", "閃閃發光", "大家一起用的", "容器"] },
+    { "num": "279", "name": "冰雪巨龍", "img": "pokopia_pokemons/No_279.png", "move": "--", "skills": ["碾壓", "亂撒"], "habitat": "凍原化石展示台", "note": "--", "scatterItem": "石頭", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["涼爽"], "favorite_things": ["石造", "堅硬的", "閃閃發光", "聲音", "象徵"] },
+    { "num": "280", "name": "伊布", "img": "pokopia_pokemons/No_280.png", "move": "--", "skills": ["交易"], "habitat": "漂亮的花田", "note": "空空鎮可遇見。", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["柔軟", "石造", "可愛", "有文字", "大家一起用的"] },
+    { "num": "281", "name": "水伊布", "img": "pokopia_pokemons/No_281.png", "move": "--", "skills": ["滋潤"], "habitat": "沁爽清藍", "note": "空空鎮・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "整潔", "可愛", "花朵盛開", "觀賞樂趣"] },
+    { "num": "282", "name": "雷伊布", "img": "pokopia_pokemons/No_282.png", "move": "--", "skills": ["發電"], "habitat": "麻麻薯餅", "note": "空空鎮・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "閃閃發光", "可愛", "玻璃", "尖銳"] },
+    { "num": "283", "name": "火伊布", "img": "pokopia_pokemons/No_283.png", "move": "--", "skills": ["點火"], "habitat": "辣到噴火", "note": "空空鎮・普通", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "木製", "可愛", "金屬的", "交通工具"] },
+    { "num": "284", "name": "太陽伊布", "img": "pokopia_pokemons/No_284.png", "move": "--", "skills": ["分類"], "habitat": "優雅的午後", "note": "空空鎮・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["明亮"], "favorite_things": ["不可思議", "能感受風的", "可愛", "難度高", "觀賞"] },
+    { "num": "285", "name": "月亮伊布", "img": "pokopia_pokemons/No_285.png", "move": "--", "skills": ["找東西"], "habitat": "黑色的滋味", "note": "空空鎮・普通", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["昏暗"], "favorite_things": ["閃閃發光", "華麗", "可愛", "有文字", "觀賞樂趣"] },
+    { "num": "286", "name": "葉伊布", "img": "pokopia_pokemons/No_286.png", "move": "--", "skills": ["栽培"], "habitat": "綠色三明治", "note": "空空鎮・普通", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["明亮"], "favorite_things": ["能感受大自然的", "花朵盛開", "可愛", "布製", "療癒"] },
+    { "num": "287", "name": "冰伊布", "img": "pokopia_pokemons/No_287.png", "move": "--", "skills": ["交易"], "habitat": "沁涼刨冰", "note": "空空鎮・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["涼爽"], "favorite_things": ["能感受水的", "閃閃發光", "可愛", "玻璃", "大家用"] },
+    { "num": "288", "name": "仙子伊布", "img": "pokopia_pokemons/No_288.png", "move": "--", "skills": ["帶動氣氛"], "habitat": "可愛的蛋糕", "note": "空空鎮・普通", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["可愛", "能感受大自然的", "布製", "聲音", "圓形"] },
+    { "num": "289", "name": "蓋歐卡", "img": "pokopia_pokemons/No_289.png", "move": "--", "skills": ["？？？"], "habitat": "--", "note": "隨主線推進解鎖圖鑑 / 在乾燥荒野之鎮的故事中登錄圖鑑", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "華麗", "閃閃發光", "玻璃"] },
+    { "num": "290", "name": "雷公", "img": "pokopia_pokemons/No_290.png", "move": "--", "skills": ["發電"], "habitat": "夢島", "note": "隨主線推進解鎖圖鑑後，使用「皮卡丘玩偶」前往夢島時隨機出現。", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "能感受風的", "閃閃發光", "玻璃", "華麗"] },
+    { "num": "291", "name": "炎帝", "img": "pokopia_pokemons/No_291.png", "move": "--", "skills": ["點火"], "habitat": "夢島", "note": "隨主線推進解鎖圖鑑後，使用「風速狗玩偶」前往夢島時隨機出現。", "scatterItem": "", "flavor": "苦", "favorite_food": ["馬鈴薯", "莓莓果", "海藻"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "石造", "象徵", "訓練", "華麗"] },
+    { "num": "292", "name": "水君", "img": "pokopia_pokemons/No_292.png", "move": "--", "skills": ["滋潤"], "habitat": "夢島", "note": "隨主線推進解鎖圖鑑後，使用「伊布玩偶」前往夢島時隨機出現。", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["滋潤"], "favorite_things": ["能感受水的", "能感受海的", "整潔", "觀賞樂趣", "療癒"] },
+    { "num": "293", "name": "波爾凱尼恩", "img": "pokopia_pokemons/No_293.png", "move": "--", "skills": ["點火"], "habitat": "--", "note": "完成「凸隆隆山地」主線後，透過派對鍋開始派對並向火山發射煙火。", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "能感受水的", "石造", "容器", "象徵"] },
+    { "num": "294", "name": "急凍鳥", "img": "pokopia_pokemons/No_294.png", "move": "--", "skills": ["飛翔"], "habitat": "神殿", "note": "解鎖「空空島」後於地圖噴泉處尋找神殿套組完成即可遇見。", "scatterItem": "", "flavor": "酸", "favorite_food": ["番茄", "利木果"], "favorite_environment": ["涼爽"], "favorite_things": ["能感受水的", "能感受風的", "閃閃發光", "象徵", "華麗"] },
+    { "num": "295", "name": "閃電鳥", "img": "pokopia_pokemons/No_295.png", "move": "--", "skills": ["飛翔"], "habitat": "神殿", "note": "解鎖「空空島」後於地圖噴泉處尋找神殿套組完成即可遇見。", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["明亮"], "favorite_things": ["電力驅動", "能感受風的", "玻璃", "象徵", "華麗"] },
+    { "num": "296", "name": "火焰鳥", "img": "pokopia_pokemons/No_296.png", "move": "--", "skills": ["飛翔"], "habitat": "神殿", "note": "解鎖「空空島」後於地圖噴泉處尋找神殿套組完成即可遇見。", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "能感受風的", "石造", "象徵", "華麗"] },
+    { "num": "297", "name": "洛奇亞", "img": "pokopia_pokemons/No_297.png", "move": "--", "skills": ["？？？"], "habitat": "--", "note": "湊齊三神鳥後解鎖並製作「透明鈴鐺」，於鳳王現身時敲響即可遇見。", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["滋潤"], "favorite_things": ["不可思議", "能感受風的", "能感受水的", "能感受海的", "象徵"] },
+    { "num": "298", "name": "鳳王", "img": "pokopia_pokemons/No_298.png", "move": "--", "skills": ["？？？"], "habitat": "--", "note": "湊齊三神獸後解鎖並製作「透明鈴鐺」，於鳳王現身時敲響即可遇見。", "scatterItem": "", "flavor": "辣", "favorite_food": ["成熟的紅蘿蔔"], "favorite_environment": ["溫暖"], "favorite_things": ["能感受火的", "木製", "能感受風的", "能感受大自然的", "象徵"] },
+    { "num": "299", "name": "超夢", "img": "pokopia_pokemons/No_299.png", "move": "--", "skills": ["瞬間移動"], "habitat": "夢島", "note": "隨主線推進解鎖圖鑑後，使用「快龍玩偶」前往夢島時隨機出現。", "scatterItem": "", "flavor": "澀", "favorite_food": ["小麥", "零餘果"], "favorite_environment": ["昏暗"], "favorite_things": ["不可思議", "觀賞樂趣", "有文字", "難度高", "石造"] },
+    { "num": "300", "name": "夢幻", "img": "pokopia_pokemons/No_300.png", "move": "--", "skills": ["瞬間移動"], "habitat": "神秘遺跡", "note": "收集27種「謎之石板」，置入乾巴巴的荒野城鎮的未知圖騰牆面完成拼圖。", "scatterItem": "", "flavor": "甜", "favorite_food": ["桃桃果", "豆子"], "favorite_environment": ["溫暖"], "favorite_things": ["不可思議", "觀賞樂趣", "華麗", "難度高", "遊樂場"] }
+];
 
 const CUISINE_DATA = [
     {
@@ -5521,14 +3107,14 @@ const KABUTOPS_EFFECTS = [
 ];
 
 const MATERIALS_DATA = [
-    { type: '食物/可加工', name: '蘋野果', how: '頭槌果樹取得', where: '所有島嶼', prereq: '', use: '恢復PP／顏料原料／料理食材' },
-    { type: '食物/可加工', name: '其他樹果（零餘果、莓莓果、桃桃果、利木果、木子果）', how: '頭槌果樹取得（探索閃光點可取得果樹種子）', where: '各島嶼', prereq: '', use: '恢復PP／顏料原料／料理食材' },
-    { type: '食物/料理', name: '豆子', how: '栽種／商店購買種子', where: '凸隆隆山地／夢島', prereq: '', use: '漢堡排主食材' },
-    { type: '食物/料理', name: '番茄', how: '栽種／商店購買種子', where: '暗沉沉海邊／夢島', prereq: '', use: '料理食材' },
-    { type: '食物/料理', name: '小麥', how: '栽種／商店購買種子', where: '凸隆隆山地／夢島', prereq: '', use: '麵包主食材' },
-    { type: '食物/料理', name: '成熟的紅蘿蔔', how: '地上拔起', where: '所有島嶼隨機出現', prereq: '', use: '料理食材' },
-    { type: '食物/料理', name: '成熟的蘑菇', how: '地上拾取', where: '凸隆隆山地／夢島', prereq: '', use: '料理食材' },
-    { type: '食物/料理', name: '馬鈴薯', how: '栽種／商店購買種子', where: '亮晶晶空島', prereq: '', use: '派對咖哩主食材' },
+    { type: '很像食物的/可加工', name: '蘋野果', how: '頭槌果樹取得', where: '所有島嶼', prereq: '', use: '恢復PP／顏料原料／料理食材' },
+    { type: '很像食物的/可加工', name: '其他樹果（零餘果、莓莓果、桃桃果、利木果、木子果）', how: '頭槌果樹取得（探索閃光點可取得果樹種子）', where: '各島嶼', prereq: '', use: '恢復PP／顏料原料／料理食材' },
+    { type: '很像食物的/料理', name: '豆子', how: '栽種／商店購買種子', where: '凸隆隆山地／夢島', prereq: '', use: '漢堡排主食材' },
+    { type: '很像食物的/料理', name: '番茄', how: '栽種／商店購買種子', where: '暗沉沉海邊／夢島', prereq: '', use: '料理食材' },
+    { type: '很像食物的/料理', name: '小麥', how: '栽種／商店購買種子', where: '凸隆隆山地／夢島', prereq: '', use: '麵包主食材' },
+    { type: '很像食物的/料理', name: '成熟的紅蘿蔔', how: '地上拔起', where: '所有島嶼隨機出現', prereq: '', use: '料理食材' },
+    { type: '很像食物的/料理', name: '成熟的蘑菇', how: '地上拾取', where: '凸隆隆山地／夢島', prereq: '', use: '料理食材' },
+    { type: '很像食物的/料理', name: '馬鈴薯', how: '栽種／商店購買種子', where: '亮晶晶空島', prereq: '', use: '派對咖哩主食材' },
     { type: '道具', name: '甜甜蜜', how: '花田隨機生成', where: '—', prereq: '', use: '與「蜂女王」換稀有家具／快速找到寶可夢' },
     { type: '材料', name: '結實的樹枝', how: '地上拾取', where: '所有島嶼', prereq: '', use: '—' },
     { type: '材料', name: '石頭', how: '地上拾取', where: '所有島嶼', prereq: '', use: '—' },
@@ -5623,3 +3209,71 @@ const FACTORY_DATA = [
         zones: []
     }
 ];
+
+const DREAMISLAND_DATA = [
+    {
+        id: 1,
+        doll: '伊布布偶',
+        img: 'dream_island_dolls/show-1.png',
+        dest: '荒野夢島',
+        legend: '水君',
+        legendNote: '',
+        materials: ['蘋野果', '藤蔓繩', '發光蘑菇']
+    },
+    {
+        id: 2,
+        doll: '皮卡丘布偶',
+        img: 'dream_island_dolls/show-2.png',
+        dest: '汪洋夢島',
+        legend: '雷公',
+        legendNote: '須主線推進',
+        materials: ['線團', '海玻璃碎片', '貝殼']
+    },
+    {
+        id: 3,
+        doll: '皮皮布偶',
+        img: 'dream_island_dolls/show-3.png',
+        dest: '岩山夢島',
+        legend: '—',
+        legendNote: '',
+        materials: ['成熟的蘑菇', '銅', '石灰石']
+    },
+    {
+        id: 4,
+        doll: '風速狗布偶',
+        img: 'dream_island_dolls/show-4.png',
+        dest: '火山夢島',
+        legend: '炎帝',
+        legendNote: '',
+        materials: ['鐵', '金子', '彩光石']
+    },
+    {
+        id: 5,
+        doll: '快龍布偶',
+        img: 'dream_island_dolls/show-5.png',
+        dest: '天空夢島',
+        legend: '超夢',
+        legendNote: '須主線推進',
+        materials: ['廢紙', '寶可金屬', '水晶碎片']
+    },
+    {
+        id: 6,
+        doll: '百變怪布偶',
+        img: 'dream_island_dolls/show-6.png',
+        dest: '隨機',
+        legend: '隨機',
+        legendNote: '',
+        materials: ['隨機']
+    },
+    {
+        id: 7,
+        doll: '替身布偶',
+        img: 'dream_island_dolls/show-7.png',
+        dest: '隨機',
+        legend: '隨機',
+        legendNote: '',
+        materials: ['隨機']
+    }
+];
+
+

@@ -21,8 +21,18 @@
                     <input id="pokeSearch" type="text" placeholder="搜尋寶可夢 / 技能 / 傳授 / 棲息地">
                     <span class="icon">🔍</span>
                 </div>
+                <div class="filter-select-row">
+                    <select id="filterTypeSelect" class="filter-select">
+                        <option value="">請選擇篩選種類</option>
+                        <option value="skills">技能</option>
+                        <option value="flavor">口味</option>
+                        <option value="favorite_food">喜愛食物</option>
+                        <option value="favorite_environment">喜愛環境</option>
+                        <option value="favorite_things">喜歡事物</option>
+                    </select>
+                </div>
 
-                <div id="filterBar" class="filter-bar"></div>
+                <div id="filterBar" class="filter-bar" style="display:none;"></div>
 
                 <div id="pokeGrid" class="pokemon-grid"></div>
             </div>
@@ -34,7 +44,7 @@
                         <button class="btn danger" id="clearPokeCheckedBtn" type="button">清除勾選</button>
                     </div>
                     <div id="pokeEmpty" class="empty">尚未選擇寶可夢</div>
-                    <div id="pokeMaterials"></div>
+                    <div id="pokeMaterials" class="poke-side-scroll"></div>
                 </div>
             </div>
         </div>
@@ -44,6 +54,7 @@
     <script src="js/shared/utils.js"></script>
     <script src="js/shared/layout.js"></script>
     <script src="js/shared/data.js"></script>
+    <script src="js/shared/favorite_things_data.js"></script>
     <script src="js/pages/pokemons.js"></script>
 </body>
 

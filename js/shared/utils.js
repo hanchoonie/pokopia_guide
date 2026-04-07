@@ -1,22 +1,22 @@
 function parseMaterialText(text) {
-    const clean = text.replace(/\\\*/g, '*');
-    const m = clean.match(/^(.+?)\*(\d+)$/);
+  const clean = text.replace(/\\\*/g, '*');
+  const m = clean.match(/^(.+?)\*(\d+)$/);
 
-    if (m) {
-        return {
-            name: m[1].trim(),
-            count: parseInt(m[2], 10)
-        };
-    }
-
+  if (m) {
     return {
-        name: clean.trim(),
-        count: clean.trim() ? 1 : 0
+      name: m[1].trim(),
+      count: parseInt(m[2], 10)
     };
+  }
+
+  return {
+    name: clean.trim(),
+    count: clean.trim() ? 1 : 0
+  };
 }
 
 function renderHeader(activePage) {
-    return `
+  return `
       <header>
         <div class="header-inner">
           <div class="logo">Pokopia <span>Guide</span></div>
@@ -27,6 +27,7 @@ function renderHeader(activePage) {
             <a href="cuisine.html" class="${activePage === 'cuisine' ? 'active' : ''}">料理</a>
             <a href="materials.html" class="${activePage === 'materials' ? 'active' : ''}">材料</a>
             <a href="factory.html" class="${activePage === 'factory' ? 'active' : ''}">工廠</a>
+            <a href="favorite_things.html" class="${activePage === 'favorite_things' ? 'active' : ''}">所有物品</a>
           </nav>
         </div>
       </header>
