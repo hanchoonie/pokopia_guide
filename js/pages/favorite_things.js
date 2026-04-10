@@ -1,6 +1,10 @@
 let activeItemFilterType = '';
 let activeCategoryFilters = new Set();
 let activeTagFilters = new Set();
+let activeFlavorFilters = new Set();
+
+// 定義口味清單，用於從 categories 中抽離
+const FLAVOR_LIST = ['酸', '甜', '苦', '辣', '澀'];
 
 function normalizeText(value) {
     return (value || '').toString().trim();
@@ -27,13 +31,18 @@ function makeTagHtml(values, className = '') {
 }
 
 function getAllFilterValues(type) {
-    const values = new Set();
+    if (type === 'flavors') return [...FLAVOR_LIST];
 
+    const values = new Set();
     (POKEMON_FAVORITE_THINGS || []).forEach(item => {
         const list = item[type] || [];
         list.forEach(v => {
             const text = normalizeText(v);
-            if (text) values.add(text);
+            if (text) {
+                // 如果是類別分類，則排除掉屬於口味的字眼
+                if (type === 'categories' && FLAVOR_LIST.includes(text)) return;
+                values.add(text);
+            }
         });
     });
 
@@ -41,7 +50,10 @@ function getAllFilterValues(type) {
 }
 
 function toggleFilter(value, type) {
-    const targetSet = type === 'categories' ? activeCategoryFilters : activeTagFilters;
+    let targetSet;
+    if (type === 'categories') targetSet = activeCategoryFilters;
+    else if (type === 'tags') targetSet = activeTagFilters;
+    else if (type === 'flavors') targetSet = activeFlavorFilters;
 
     if (targetSet.has(value)) {
         targetSet.delete(value);
@@ -55,23 +67,26 @@ function toggleFilter(value, type) {
 }
 
 function removeSelectedFilter(type, value) {
-    if (type === 'categories') {
-        activeCategoryFilters.delete(value);
-    } else if (type === 'tags') {
-        activeTagFilters.delete(value);
-    }
+    if (type === 'categories') activeCategoryFilters.delete(value);
+    else if (type === 'tags') activeTagFilters.delete(value);
+    else if (type === 'flavors') activeFlavorFilters.delete(value);
 
     buildItemFilters();
     renderSelectedFilters();
     renderItems();
 }
 
+// 核心清除功能：一鍵重設所有狀態
 function clearAllFilters() {
-    document.getElementById('itemSearch').value = '';
-    document.getElementById('itemFilterType').value = '';
+    const searchInput = document.getElementById('itemSearch');
+    const filterSelect = document.getElementById('itemFilterType');
+    if (searchInput) searchInput.value = '';
+    if (filterSelect) filterSelect.value = '';
+
     activeItemFilterType = '';
     activeCategoryFilters.clear();
     activeTagFilters.clear();
+    activeFlavorFilters.clear();
 
     buildItemFilters();
     renderSelectedFilters();
@@ -92,29 +107,15 @@ function buildItemFilters() {
     const values = getAllFilterValues(activeItemFilterType);
     bar.style.display = 'flex';
 
-    const clearTypeChip = document.createElement('button');
-    clearTypeChip.type = 'button';
-    clearTypeChip.className = 'chip';
-    clearTypeChip.textContent = activeItemFilterType === 'categories' ? '清除類別' : '清除標籤';
-    clearTypeChip.onclick = () => {
-        if (activeItemFilterType === 'categories') {
-            activeCategoryFilters.clear();
-        } else {
-            activeTagFilters.clear();
-        }
-        buildItemFilters();
-        renderSelectedFilters();
-        renderItems();
-    };
-    bar.appendChild(clearTypeChip);
-
+    // 移除原有的個別清除按鈕，直接生成選項 Chip
     values.forEach(value => {
         const chip = document.createElement('button');
         chip.type = 'button';
 
-        const isActive = activeItemFilterType === 'categories'
-            ? activeCategoryFilters.has(value)
-            : activeTagFilters.has(value);
+        let isActive = false;
+        if (activeItemFilterType === 'categories') isActive = activeCategoryFilters.has(value);
+        else if (activeItemFilterType === 'tags') isActive = activeTagFilters.has(value);
+        else if (activeItemFilterType === 'flavors') isActive = activeFlavorFilters.has(value);
 
         chip.className = 'chip' + (isActive ? ' active' : '');
         chip.textContent = value;
@@ -130,18 +131,16 @@ function renderSelectedFilters() {
 
     const categoryList = [...activeCategoryFilters];
     const tagList = [...activeTagFilters];
+    const flavorList = [...activeFlavorFilters];
 
-    if (categoryList.length === 0 && tagList.length === 0) {
+    if (categoryList.length === 0 && tagList.length === 0 && flavorList.length === 0) {
         wrap.style.display = 'none';
         wrap.innerHTML = '';
         return;
     }
 
     wrap.style.display = 'flex';
-
-    const parts = [];
-
-    parts.push(`<div class="selected-filters-title">已選條件：</div>`);
+    const parts = [`<div class="selected-filters-title">已選條件：</div>`];
 
     categoryList.forEach(value => {
         parts.push(`
@@ -159,6 +158,14 @@ function renderSelectedFilters() {
         `);
     });
 
+    flavorList.forEach(value => {
+        parts.push(`
+            <button type="button" class="selected-filter-chip" data-type="flavors" data-value="${escapeHtml(value)}">
+                口味：${escapeHtml(value)} <span class="remove">✕</span>
+            </button>
+        `);
+    });
+
     parts.push(`
         <button type="button" class="selected-filter-clear" id="selectedFilterClearBtn">
             清除全部
@@ -169,22 +176,19 @@ function renderSelectedFilters() {
 
     wrap.querySelectorAll('.selected-filter-chip').forEach(btn => {
         btn.addEventListener('click', () => {
-            const type = btn.dataset.type;
-            const value = btn.dataset.value;
-            removeSelectedFilter(type, value);
+            removeSelectedFilter(btn.dataset.type, btn.dataset.value);
         });
     });
 
-    const clearBtn = document.getElementById('selectedFilterClearBtn');
-    if (clearBtn) {
-        clearBtn.addEventListener('click', clearAllFilters);
-    }
+    document.getElementById('selectedFilterClearBtn')?.addEventListener('click', clearAllFilters);
 }
 
 function handleItemFilterTypeChange() {
     const select = document.getElementById('itemFilterType');
-    activeItemFilterType = select.value;
-    buildItemFilters();
+    if (select) {
+        activeItemFilterType = select.value;
+        buildItemFilters();
+    }
 }
 
 function itemMatchesSearch(item, q) {
@@ -202,18 +206,26 @@ function itemMatchesSearch(item, q) {
 }
 
 function itemMatchesFilters(item) {
-    const categories = (item.categories || []).map(normalizeText);
+    const allCategories = (item.categories || []).map(normalizeText);
     const tags = (item.tags || []).map(normalizeText);
+
+    // 從資料中分離真正的類別與口味
+    const itemOnlyCategories = allCategories.filter(c => !FLAVOR_LIST.includes(c));
+    const itemOnlyFlavors = allCategories.filter(c => FLAVOR_LIST.includes(c));
 
     const matchedCategories =
         activeCategoryFilters.size === 0 ||
-        [...activeCategoryFilters].every(filter => categories.includes(filter));
+        [...activeCategoryFilters].every(filter => itemOnlyCategories.includes(filter));
 
     const matchedTags =
         activeTagFilters.size === 0 ||
         [...activeTagFilters].every(filter => tags.includes(filter));
 
-    return matchedCategories && matchedTags;
+    const matchedFlavors =
+        activeFlavorFilters.size === 0 ||
+        [...activeFlavorFilters].every(filter => itemOnlyFlavors.includes(filter));
+
+    return matchedCategories && matchedTags && matchedFlavors;
 }
 
 function renderItems() {
@@ -245,7 +257,7 @@ function renderItems() {
             <div class="item-name">${escapeHtml(item.name || '未命名物品')}</div>
 
             <div class="item-field">
-                <div class="item-label">類別</div>
+                <div class="item-label">類別/口味</div>
                 <div class="tag-wrap">${categoriesHtml || '<span style="color:#9ca3af;">--</span>'}</div>
             </div>
 
@@ -260,7 +272,9 @@ function renderItems() {
 }
 
 function initFavoriteThingsPage() {
-    mountLayout?.('favorite_things');
+    if (typeof mountLayout === 'function') {
+        mountLayout('favorite_things');
+    }
 
     const searchInput = document.getElementById('itemSearch');
     const filterTypeSelect = document.getElementById('itemFilterType');

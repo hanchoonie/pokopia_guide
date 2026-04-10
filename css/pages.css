@@ -1,3 +1,4 @@
+/* ── Layout ── */
 .layout {
     display: grid;
     grid-template-columns: 1fr 320px;
@@ -14,6 +15,7 @@
     align-self: start;
 }
 
+/* ── Shared Page Parts ── */
 .page-actions {
     display: flex;
     gap: 8px;
@@ -49,177 +51,7 @@
     line-height: 1.6;
 }
 
-.island-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 20px;
-}
-
-.island-card {
-    background: #fff;
-    border-radius: 18px;
-    overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.island-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-}
-
-.island-card-image-wrap {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    background: #f6f7fb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.island-card-image-wrap.img-error::before {
-    content: '圖片載入失敗';
-    color: #999;
-    font-size: 14px;
-}
-
-.island-card-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-    padding: 14px;
-    box-sizing: border-box;
-}
-
-.island-card-body {
-    padding: 16px;
-}
-
-.island-doll {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    color: #222;
-}
-
-.island-dest {
-    font-size: 14px;
-    margin-bottom: 8px;
-    color: #444;
-}
-
-.dest-text {
-    color: var(--accent3);
-}
-
-.island-legend {
-    font-size: 13px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.island-legend.muted {
-    color: var(--text3, #888);
-}
-
-.legend-note {
-    color: var(--text3, #888);
-    font-size: 11px;
-    margin-left: 4px;
-}
-
-.island-materials {
-    font-size: 13px;
-    color: #444;
-    line-height: 1.8;
-}
-
-.material-tag {
-    display: inline-block;
-    margin: 4px 6px 0 0;
-    padding: 4px 10px;
-    border-radius: 999px;
-    background: #f3f4f8;
-    color: #444;
-    font-size: 12px;
-    font-weight: 500;
-}
-
-.empty-state {
-    grid-column: 1 / -1;
-    background: #fff;
-    border-radius: 16px;
-    padding: 24px;
-    text-align: center;
-    color: #888;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-}
-
-.island-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 20px;
-}
-
-.island-card {
-    background: #fff;
-    border-radius: 16px;
-    padding: 16px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-}
-
-.island-image-wrap {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    background: #f6f7fb;
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: 12px;
-}
-
-.island-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-
-.island-doll {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 8px;
-}
-
-.island-dest,
-.island-legend,
-.island-materials {
-    font-size: 14px;
-    margin-bottom: 8px;
-}
-
-.material-tag {
-    display: inline-block;
-    margin: 4px 6px 0 0;
-    padding: 4px 10px;
-    border-radius: 999px;
-    background: #f3f4f8;
-    font-size: 12px;
-}
-
-.legend-note,
-.muted {
-    color: #888;
-    font-size: 12px;
-}
-
-.empty-state {
-    padding: 24px;
-    text-align: center;
-    color: #888;
-}
-
+/* ── Dream Islands Table ── */
 .island-table {
     min-width: 600px;
     table-layout: auto;
@@ -235,19 +67,24 @@
 }
 
 .island-table th {
-    padding: 16px;
-    font-size: 16px;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 700;
     text-align: left;
 }
 
+
 .island-table td {
-    padding: 20px 16px;
+    padding: 24px 18px;
+    font-size: 16px;
     color: black;
-    border-bottom: 1px solid #e5e7eb;
     vertical-align: top;
 }
 
-/* 玩偶欄 */
+.island-table tr {
+    border-bottom: 1px solid #e5e7eb;
+}
+
 .doll-wrap {
     display: flex;
     align-items: center;
@@ -255,15 +92,15 @@
 }
 
 .doll-img {
-    width: 60px;
-    height: 60px;
+    width: 64px;
+    height: 64px;
     object-fit: contain;
     background: #f3f4f8;
     border-radius: 12px;
-    padding: 6px;
+    padding: 8px;
 }
 
-/* 素材列表 */
+
 .col-materials ul {
     margin: 0;
     padding-left: 18px;
@@ -273,32 +110,7 @@
     margin-bottom: 8px;
 }
 
-.island-table th {
-    padding: 18px;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.island-table td {
-    padding: 24px 18px;
-    font-size: 16px;
-}
-
-.island-table tr {
-    border-bottom: 1px solid #e5e7eb;
-}
-
-.doll-img {
-    width: 64px;
-    height: 64px;
-    border-radius: 12px;
-    background: #f3f4f8;
-    padding: 8px;
-}
-
-/* =========================
-   Items Page
-========================= */
+/* ── Items Page ── */
 .items-page {
     padding: 20px;
 }
@@ -405,6 +217,7 @@
     border-color: rgba(255, 107, 107, 0.24);
 }
 
+/* ── Selected Filters ── */
 .selected-filters {
     display: flex;
     flex-wrap: wrap;
@@ -447,14 +260,23 @@
     color: #fff;
 }
 
-/* Pokémon 右側結果區塊可捲動 */
+/* ── Pokémon Side Panel ── */
+.side-panel {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
 .poke-side-scroll {
     max-height: 60vh;
     overflow-y: auto;
     padding-right: 6px;
 }
 
-/* 捲軸樣式，可省略 */
 .poke-side-scroll::-webkit-scrollbar {
     width: 8px;
 }
@@ -472,17 +294,6 @@
     background: var(--accent4);
 }
 
-.side-panel {
-    background: var(--card);
-    border: 1.5px solid var(--border);
-    border-radius: 12px;
-    padding: 16px;
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-/* 右側已選寶可夢列表 */
 .selected-pokemon-list {
     display: flex;
     flex-wrap: wrap;
